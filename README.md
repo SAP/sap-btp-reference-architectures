@@ -1,4 +1,18 @@
-# SAP BTP Refrence Architectures
+# SAP BTP Reference Architectures
+
+This repository contains SAP BTP Reference Architectures for different areas like:
+
+- **SAP Data and Analytics Methodology** reference architectures
+- **SAP Application Extension Methodology** reference architectures
+- **SAP Integration Solution Advisory** Methodology reference architectures
+- Hyperscaler related reference architectures
+- ***more areas will be provided soon***
+
+The architectures a based on the official [**SAP SAP Business Technology Platform Solution Diagrams**](https://blogs.sap.com/2018/01/05/be-visual-use-official-icons-and-samples-for-sap-cloud-platform-solution-diagrams/)
+
+
+
+
 
 Default templates for SAP open source repositories, including LICENSE, .reuse/dep5, Code of Conduct, etc... All repositories on github.com/SAP will be created based on this template.
 
