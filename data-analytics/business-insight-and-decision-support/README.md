@@ -11,7 +11,7 @@ Analytical Applications enable professional designers to use advanced scripting 
 
 ### Data Architecture
 
-![](images/analyticalapp_data_architecture.svg)
+![](images/analyticalapp_data_architecture.png)
 
 ### Architecture
 
