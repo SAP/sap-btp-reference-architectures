@@ -1,7 +1,7 @@
-# SAP BTP Reference Architectures
+# SAP BTP reference architectures
 
 ## About this project
-This repository contains SAP BTP Reference Architectures for the different methodologies to help architects build solution architectures that combines different technology products & services. Wer are focusing on the following areas:
+This repository contains SAP BTP reference architectures for the different methodologies to help architects build solution architectures that combines different technology products & services. Wer are focusing on the following areas:
 
 - **SAP Data and Analytics Methodology** reference architectures
 - **SAP Application Extension Methodology** reference architectures
