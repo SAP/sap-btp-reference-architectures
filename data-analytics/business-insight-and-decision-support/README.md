@@ -1,8 +1,8 @@
 ## Analytical app
 
-Use Case Category: **Data Consumption**
+Use Case Category: **Business Insight & Decision Support**
 
-Use Case Pattern: **Business Insight & Decision Support**
+Use Case Pattern: **Analytical App**
 
 
 ### Description
