@@ -7,9 +7,9 @@
 
 ## Use Cases
 
-- [Advanced Analytics](advanced-analytics/README.md)
-- [Integrated Business Planning & Forecasting](integr-business-planning-and-forecasting/README.md)
+- [Predictive Analytics](predictive-analytics/README.md)
+- [Business Planning & Forecasting](business-planning-and-forecasting/README.md)
 - [Business Insight & Decision Support](business-insight-and-decision-support/README.md)
-- [Data-driven Products & Services](data-driven-products-and-services/README.md)
+- [Data-driven Market Offerings](data-driven-market-offerings/README.md)
 - [Data Management](data-management/README.md)
 - [Data Governance](data-governance/README.md)
