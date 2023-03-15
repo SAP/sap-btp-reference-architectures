@@ -13,3 +13,4 @@
 - [Data-driven Market Offerings](data-driven-market-offerings/README.md)
 - [Data Management](data-management/README.md)
 - [Data Governance](data-governance/README.md)
+- [GPT Based Application Development](gpt-based-app-dev/README.md) 
