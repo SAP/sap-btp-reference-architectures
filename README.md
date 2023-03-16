@@ -1,12 +1,14 @@
 # SAP BTP reference architectures
 
 ## About this project
-This repository contains SAP BTP reference architectures for the different methodologies to help architects build solution architectures that combines different technology products & services. Wer are focusing on the following areas:
+This repository contains various SAP BTP reference architecture diagrams. They are supposed to help architects when building solution architectures that combine different technology products & services. 
 
-- **SAP Data and Analytics Methodology** reference architectures
-- **SAP Application Extension Methodology** reference architectures
-- **SAP Integration Solution Advisory Methodology** reference architectures
+The diagrams cover a variety of areas and also support methodologies that SAP features:
+
 - Hyperscaler related reference architectures
+- reference architectures related to the [**SAP Integration Solution Advisory Methodology**](https://www.sap.com/services-support/integration-solution-advisory-methodology.html)
+- reference architectures related to the [**SAP Application Extension Methodology**](https://help.sap.com/docs/architecture_guidance/2f804cb5e53d4279879009100a2b2082/cd963582f46d421c9abfd28dc25ea7e3.html?locale=en-US)
+- reference architectures related to the [**SAP Data and Analytics Methodology**](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
 - *more areas will be provided soon*
 
 > The architectures are based on the official [**SAP SAP Business Technology Platform Solution Diagrams**](https://blogs.sap.com/2018/01/05/be-visual-use-official-icons-and-samples-for-sap-cloud-platform-solution-diagrams/)
