@@ -3,12 +3,13 @@
 ## About this project
 
 The SAP Business Technology Platform BTP forms the foundation of the Intelligent Sustainable Enterprise.
-With its services, capabilities and solution offers in the areas Application Development, Automation, Integration, Data and Analytics
-as well as AI it offers powerful components that can be combined to fit SAP, partner and customer needs.
 
 <p align="center">
   <img src="images/BTP-marketecture.png" width="500"/>
 </p>
+
+With its services, capabilities and solution offers in the areas Application Development, Automation, Integration, Data and Analytics
+as well as AI it offers powerful components that can be combined to fit SAP, partner and customer needs.
 
 This repository contains various SAP BTP reference architecture diagrams. They are supposed to help architects when building solution architectures that combine different technology products & services. 
 
