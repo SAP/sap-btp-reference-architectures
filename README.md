@@ -19,11 +19,11 @@ The diagrams cover a variety of areas and also support methodologies that SAP fe
 - reference architectures related to the [**SAP Data and Analytics Methodology**](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
 - *more areas will be provided soon*
 
-> The architectures are based on the official [**SAP SAP Business Technology Platform Solution Diagrams**](https://blogs.sap.com/2018/01/05/be-visual-use-official-icons-and-samples-for-sap-cloud-platform-solution-diagrams/)
+The architectures are based on the official [**SAP SAP Business Technology Platform Solution Diagrams**](https://blogs.sap.com/2018/01/05/be-visual-use-official-icons-and-samples-for-sap-cloud-platform-solution-diagrams/)
 
-> You can download the latest version icons here:
-> - [BTP service icons here](https://d.dam.sap.com/a/s9tyyJJ?rc=10)
-> - [Terms of Use](https://d.dam.sap.com/a/nXJJmw/SAP%20Business%20Technology%20Platform%20Diagrams%20and%20Icons%20Terms%20of%20Use.pdf?rc=10)
+You can download the latest version icons here:
+- [BTP service icons here](https://d.dam.sap.com/a/s9tyyJJ?rc=10)
+- [Terms of Use](https://d.dam.sap.com/a/nXJJmw/SAP%20Business%20Technology%20Platform%20Diagrams%20and%20Icons%20Terms%20of%20Use.pdf?rc=10)
 
 
 Default templates for SAP open source repositories, including LICENSE, .reuse/dep5, Code of Conduct, etc... All repositories on github.com/SAP will be created based on this template.
