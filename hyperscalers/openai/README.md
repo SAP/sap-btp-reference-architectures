@@ -46,7 +46,7 @@ The most important part in our example is the connection to the external AI serv
 ## Example
 
 To understand this architecture approach in detail, we recommend to review our example which demonstrates the described architecture in a minimal way. 
-See [Kays example on SAP Samples](TODO)
+Coming in the next days.
 
 ## Further References
 
