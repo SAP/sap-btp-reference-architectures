@@ -1,5 +1,5 @@
 ### Hyperscalers Reference Architectures ###
 
-* [OpenAI/ChatGPT Reference Architecture](/hyperscalers/GPT)
+* [OpenAI/ChatGPT Reference Architecture](/hyperscalers/openai)
 
 
