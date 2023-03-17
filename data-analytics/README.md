@@ -1,4 +1,4 @@
-# Repository for the architecture artifacts of the SAP Data and Analytics Advisory Methodology
+# Repository for the SAP BTP-based reference architecture of the [SAP Data and Analytics Advisory Methodology](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
 
 <p align="center">
   <img src="images/data-analytics-meth-circle.svg" width="300"/>
@@ -13,4 +13,3 @@
 - [Data-driven Market Offerings](data-driven-market-offerings/README.md)
 - [Data Management](data-management/README.md)
 - [Data Governance](data-governance/README.md)
-- [GPT Based Application Development](gpt-based-app-dev/README.md) 
