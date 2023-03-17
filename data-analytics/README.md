@@ -10,8 +10,8 @@
 
 ### Use Cases
 
-- [Business Planning & Forecasting](business-planning-and-forecasting/README.md)
-- Business Insight & Decision Support
+- Business Planning & Forecasting
+- [Business Insight & Decision Support](business-insight-and-decision-support/README.md)
 - Data-driven Market Offerings
 - Data Management
 - Data Governance
