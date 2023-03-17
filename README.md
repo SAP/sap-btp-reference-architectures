@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP/sap-btp-reference-architectures)](https://api.reuse.software/info/github.com/SAP/sap-btp-reference-architectures)
+
 # SAP BTP reference architectures
 
 ## About this project
