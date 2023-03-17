@@ -1,4 +1,6 @@
-# SAP BTP reference architectures for the SAP Data and Analytics Advisory Methodology
+# SAP BTP reference architectures 
+
+## SAP Data and Analytics Advisory Methodology
 
 <p align="center">
   <img src="images/data-analytics-meth-circle.svg" width="300"/>
@@ -6,7 +8,7 @@
 
 [SAP Data and Analytics Advisory Methodology](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
 
-## Use Cases
+### Use Cases
 
 - [Predictive Analytics](predictive-analytics/README.md)
 - [Business Planning & Forecasting](business-planning-and-forecasting/README.md)
