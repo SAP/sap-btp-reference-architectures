@@ -1,9 +1,10 @@
-# Repository for the SAP BTP-based reference architecture of the [SAP Data and Analytics Advisory Methodology](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
+# SAP BTP reference architectures for the SAP Data and Analytics Advisory Methodology
 
 <p align="center">
   <img src="images/data-analytics-meth-circle.svg" width="300"/>
 </p>
 
+[SAP Data and Analytics Advisory Methodology](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
 
 ## Use Cases
 
