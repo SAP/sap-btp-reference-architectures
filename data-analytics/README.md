@@ -15,4 +15,4 @@
 - Data-driven Market Offerings
 - Data Management
 - Data Governance
-- Predictive Analytics
+- [Predictive Analytics](predictive-analytics/README.md)
