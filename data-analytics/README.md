@@ -3,10 +3,10 @@
 ## SAP Data and Analytics Advisory Methodology
 
 <p align="center">
-  <img src="images/data-analytics-meth-circle.svg" width="300"/>
+  <img src="images/data-analytics-meth-circle.svg" width="350"/>
 </p>
 
-[SAP Data and Analytics Advisory Methodology](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
+[Blog: Release of SAP Data and Analytics Advisory Methodology](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
 
 ### Use Cases
 
