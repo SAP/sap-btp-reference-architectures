@@ -14,7 +14,7 @@ Getting data from business applications is a significant challenge, the best app
 
 ---
 
-:link: [Solution Architecture (.drawio/diagrams.net) source file](architectures/business-data-fabric.drawio)
+:link: [BTP reference architecture (.drawio/diagrams.net) source file](architectures/business-data-fabric.drawio)
 
 ### BTP services / SAP solutions
 

@@ -19,7 +19,7 @@ The SAP Federated ML Python libraries (FedML) applies the Data Federation archit
 
 ---
 
-:link: [Solution Architecture (.drawio) source file](architectures/fedml.drawio)
+:link: [BTP reference architecture (.drawio/diagrams.net) source file](architectures/fedml.drawio)
 
 ### BTP services / SAP solutions
 

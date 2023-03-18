@@ -19,7 +19,7 @@ Analytical Applications enable professional designers to use advanced scripting 
 
 ---
 
-:link: [Solution Architecture (.drawio) source file](architectures/analyticalapp.drawio)
+:link: [BTP reference architecture (.drawio/diagrams.net) source file](architectures/analyticalapp.drawio)
 
 ### BTP services / SAP solutions
 
