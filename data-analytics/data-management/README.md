@@ -1,13 +1,8 @@
 # Business Data Fabric
 
-- [Business Data Fabric](/advanced-analytics/README.md#business-data-fabric)
-
-## Business Data Fabric
-
 Use Case Category: **Data Management**
 
 Use Case Pattern: **Business Data Fabric**
-
 
 ### Description
 
