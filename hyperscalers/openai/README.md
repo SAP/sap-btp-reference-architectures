@@ -19,7 +19,9 @@ The major cornerstones of the architecture skeched below are
 * [SAP AI Core Service](#ai-core)
 * [CAP Application](#cap-application)
 
-![](ReferenceArchitectureOpenAI-ChatGPT.png)
+![](images/ReferenceArchitectureOpenAI-ChatGPT.png)
+
+:link: [Reference Architecture (.drawio) source file](architectures/ReferenceArchitectureOpenAI-ChatGPT.drawio)
 
 ### GPT Model on Azure OpenAI Services
 
