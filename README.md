@@ -20,7 +20,7 @@ The diagrams cover a variety of areas and also support methodologies that SAP fe
 - [Hyperscaler related reference architectures](/hyperscalers/README.md)
 - reference architectures related to the [**SAP Integration Solution Advisory Methodology**](https://www.sap.com/services-support/integration-solution-advisory-methodology.html)
 - reference architectures related to the [**SAP Application Extension Methodology**](https://help.sap.com/docs/architecture_guidance/2f804cb5e53d4279879009100a2b2082/cd963582f46d421c9abfd28dc25ea7e3.html?locale=en-US)
-- [reference architectures] (/data-analytics/README.md) related to the [**SAP Data and Analytics Methodology**](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
+- [reference architectures](/data-analytics/README.md) related to the [**SAP Data and Analytics Methodology**](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
 - *more areas will be provided soon*
 
 The architectures are based on the official [**SAP SAP Business Technology Platform Solution Diagrams**](https://blogs.sap.com/2018/01/05/be-visual-use-official-icons-and-samples-for-sap-cloud-platform-solution-diagrams/)
