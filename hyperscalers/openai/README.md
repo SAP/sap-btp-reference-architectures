@@ -51,8 +51,7 @@ Additionally, with this architecture you can benefit from the co-engineering wor
 
 ## Example
 
-To understand this architecture approach in detail, we recommend to review our example which demonstrates the described architecture in a minimal way. 
-Coming in the next days.
+To understand this architecture approach in detail, we recommend to review our example [(Consume OpenAI services (GPT) through CAP & SAP BTP, AI Core)](https://github.com/SAP/sap-btp-reference-architectures/blob/sample-azure-openai-aicore-cap-api/hyperscalers/openai/sample/) which demonstrates the described architecture in a minimal way. 
 
 ## Further References
 
