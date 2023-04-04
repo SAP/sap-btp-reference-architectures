@@ -2,7 +2,6 @@
 
 ## About this project
 
-
 The SAP Business Technology Platform BTP forms the foundation of the Intelligent Sustainable Enterprise.
 
 <p align="center">
