@@ -13,7 +13,7 @@ With its services and capabilities in the areas Application Development, Automat
 as well as AI it offers powerful components that can be combined to fit SAP, partner and customer needs.
 
 This repository contains various SAP BTP reference architecture diagrams. They are supposed to help architects when building solution architectures that combine different technology products & services.
-The provided source files in the different areas can be used and adopted by your own by using [diagrams.net](https://github.com/jgraph/drawio-desktop/releases) 
+The provided source files of diagrams can be used and adopted by your own by using [diagrams.net](https://github.com/jgraph/drawio-desktop/releases) 
 
 The diagrams cover a variety of areas and also support methodologies that SAP features:
 
