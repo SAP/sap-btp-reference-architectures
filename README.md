@@ -13,7 +13,8 @@ The SAP Business Technology Platform BTP forms the foundation of the Intelligent
 With its services and capabilities in the areas Application Development, Automation, Integration, Data and Analytics
 as well as AI it offers powerful components that can be combined to fit SAP, partner and customer needs.
 
-This repository contains various SAP BTP reference architecture diagrams. They are supposed to help architects when building solution architectures that combine different technology products & services. 
+This repository contains various SAP BTP reference architecture diagrams. They are supposed to help architects when building solution architectures that combine different technology products & services.
+The provided source files of diagrams can be used and adopted by your own by using [diagrams.net](https://github.com/jgraph/drawio-desktop/releases) 
 
 The diagrams cover a variety of areas and also support methodologies that SAP features:
 
@@ -25,10 +26,9 @@ The diagrams cover a variety of areas and also support methodologies that SAP fe
 
 The architectures are based on the official [**SAP SAP Business Technology Platform Solution Diagrams**](https://blogs.sap.com/2018/01/05/be-visual-use-official-icons-and-samples-for-sap-cloud-platform-solution-diagrams/)
 
-You can download the latest version icons here:
-- [BTP service icons here](https://d.dam.sap.com/a/s9tyyJJ?rc=10)
+You can download the latest version of icons here:
+- [BTP service icons](https://d.dam.sap.com/a/s9tyyJJ?rc=10)
 - [Terms of Use](https://d.dam.sap.com/a/nXJJmw/SAP%20Business%20Technology%20Platform%20Diagrams%20and%20Icons%20Terms%20of%20Use.pdf?rc=10)
-
 
 Default templates for SAP open source repositories, including LICENSE, .reuse/dep5, Code of Conduct, etc... All repositories on github.com/SAP will be created based on this template.
 
