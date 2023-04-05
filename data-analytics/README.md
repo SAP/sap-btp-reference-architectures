@@ -1,12 +1,14 @@
-# SAP BTP reference architectures 
+# SAP BTP reference architectures
 
-## SAP Data and Analytics Advisory Methodology
+Describes a specific solution based on predefined processes and best practices to meet typical business requirements of a set of use cases. They are SAP solution-specific and usually can be implemented.
 
-<p align="center">
-  <img src="images/data-analytics-meth-circle.svg" width="350"/>
-</p>
+# SAP BTP reference architectures for the SAP Data and Analytics Advisory Methodology
 
-[Blog: Release of SAP Data and Analytics Advisory Methodology](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
+The SAP Data and Analytics Advisory Methodolog is providing standardized use case patterns that are organized in categories that share architecture patterns or technical capabilities.
+
+![](/data-analytics/images/use_cases.png)
+
+For futher details please read als the blog about the [release of SAP Data and Analytics Advisory Methodology](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
 
 ### Use Cases
 
