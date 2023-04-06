@@ -15,6 +15,6 @@ For futher details please read als the blog about the [release of SAP Data and A
 - Business Planning & Forecasting
 - [Business Insight & Decision Support](business-insight-and-decision-support/README.md)
 - Data-driven Market Offerings
-- Data Management
+- [Data Management](data-management/README.md)
 - Data Governance
 - [Predictive Analytics](predictive-analytics/README.md)

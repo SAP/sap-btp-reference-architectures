@@ -19,7 +19,9 @@ The major cornerstones of the architecture skeched below are
 * [SAP AI Core Service](#ai-core)
 * [CAP Application](#cap-application)
 
-![](ReferenceArchitectureOpenAI-ChatGPT.png)
+![](images/ReferenceArchitectureOpenAI-ChatGPT.png)
+
+:link: [Reference Architecture (.drawio) source file](architectures/ReferenceArchitectureOpenAI-ChatGPT.drawio)
 
 ### GPT Model on Azure OpenAI Services
 
@@ -37,7 +39,7 @@ API access to Large Language Models such as Microsoft Azure OpenAI is offered th
 
 In a first and simple approach here, we use SAP AI Core to act as an proxy to access the external AI services and to expose a destination which can be consumed by your application.
 
-### [CAP](https://cap.cloud.sap/docs/) Application
+### [CAP Application](https://cap.cloud.sap/docs/)
 
 SAP's recommendation is to use Cloud Application Programming ([CAP](https://cap.cloud.sap/docs/)) as the entitiy layer of the application and [SAP UI5](https://ui5.sap.com/) if a user interface is required. 
 
@@ -49,8 +51,7 @@ Additionally, with this architecture you can benefit from the co-engineering wor
 
 ## Example
 
-To understand this architecture approach in detail, we recommend to review our example which demonstrates the described architecture in a minimal way. 
-Coming in the next days.
+To understand this architecture approach in detail, we recommend to review our example [(Consume OpenAI services (GPT) through CAP & SAP BTP, AI Core)](https://github.com/SAP-samples/azure-openai-aicore-cap-api) which demonstrates the described architecture in a minimal way. 
 
 ## Further References
 
