@@ -10,13 +10,15 @@ The SAP Data and Analytics Advisory Methodolog is providing standardized use cas
 
 For futher details please read als the blog about the [release of SAP Data and Analytics Advisory Methodology](https://blogs.sap.com/2023/03/15/release-of-sap-data-and-analytics-advisory-methodology/)
 
-### Use Cases
+### Business Use Cases
 
+- [Business Insight & Decision Support](business-insight-and-decision-support/README.md)
+- Business Planning & Forecasting
+- Data-driven Market Offerings
+- [Predictive Analytics](predictive-analytics/README.md)
 
-|Business Use Cases  | Technical Use Cases |
-| :--- | :--- |
-| Business Planning & Forecasting  | [Data Management](data-management/README.md)  |
-| [Business Insight & Decision Support](business-insight-and-decision-support/README.md)  | Data Governance  |
-| Data-driven Market Offerings   |  |
-| [Predictive Analytics](predictive-analytics/README.md)   |   |
+### Technical Use Cases
+
+- [Data Management](data-management/README.md)
+- Data Governance
 
