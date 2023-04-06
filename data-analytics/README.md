@@ -14,7 +14,7 @@ For futher details please read als the blog about the [release of SAP Data and A
 
 
 | Business Use Cases  | Technical Use Cases |
-| ------------- | ------------- |
+| --- | --- |
 | Business Planning & Forecasting  | [Data Management](data-management/README.md)  |
 | [Business Insight & Decision Support](business-insight-and-decision-support/README.md)  | Data Governance  |
 | Data-driven Market Offerings   |  |
