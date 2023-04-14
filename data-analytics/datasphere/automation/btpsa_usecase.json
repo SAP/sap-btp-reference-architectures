@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+      {
+        "name": "data-analytics-osb",
+        "plan": "free",
+        "category": "SERVICE",
+        "targetenvironment": "cloudfoundry",
+        "instancename": "sapdatasphere-instance",
+        "parameters": {
+            "email": "fabian.lehmann02@sap.com",
+            "first_name": "Fabian",
+            "last_name": "Lehmann"
+        }
+      },
+      {
+        "category": "APPLICATION",
+        "name": "integration-suite-advanced-event-mesh",
+        "plan": "default",
+        "requiredrolecollections": [
+          ]
+      },
+      {
+        "category": "SERVICE",
+        "name": "destination",
+        "plan": "lite"
+        
+      }
+    ],
+    "executeAfterAccountSetup": [
+     
+    ]
+  }
