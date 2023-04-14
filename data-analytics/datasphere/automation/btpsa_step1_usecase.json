@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "executeAfterAccountSetup": [
+      {
+        "description": "Setup trust",
+        "command": "btp create security/trust --idp $BTPSA_PARAM_IDP_TENANT --subaccount $(jq -r '.subaccountid' ./log/metadata_log.json) --name my-trust-config  --description 'My Trust Configuration'"
+      }
+    ]
+
+  }

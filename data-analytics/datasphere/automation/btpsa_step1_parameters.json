@@ -1,0 +1,5 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-parameters.json",
+    "usecasefile": "https://raw.githubusercontent.com/fabianleh/sap-btp-reference-architectures/main/data-analytics/datasphere/automation/btpsa_step1_usecase.json"
+
+  }
