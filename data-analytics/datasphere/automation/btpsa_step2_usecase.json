@@ -14,13 +14,6 @@
         }
       },
       {
-        "category": "APPLICATION",
-        "name": "integration-suite-advanced-event-mesh",
-        "plan": "default",
-        "requiredrolecollections": [
-          ]
-      },
-      {
         "category": "SERVICE",
         "name": "destination",
         "plan": "lite"
