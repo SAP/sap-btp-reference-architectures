@@ -85,4 +85,4 @@ With a data federation architecture, customers can leave data in its source syst
 
 [Enable Category Management with BigQuery and SAP Datasphere | SAP Discovery Center](https://discovery-center.cloud.sap/missiondetail/3666/3709/)
 
-[ntegrate Google BigQuery and SAP Datasphere](https://discovery-center.cloud.sap/missiondetail/3409/3449/)
+[Integrate Google BigQuery and SAP Datasphere](https://discovery-center.cloud.sap/missiondetail/3409/3449/)
