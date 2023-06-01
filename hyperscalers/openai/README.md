@@ -51,7 +51,7 @@ Additionally, with this architecture you can benefit from the co-engineering wor
 
 ## Examples
 
-To understand this architecture approach in detail, we recommend to review our example [(Consume OpenAI services (GPT) through CAP & SAP BTP, AI Core)](https://github.com/SAP-samples/azure-openai-aicore-cap-api) which demonstrates the described architecture in a minimal way as boilerplate code.
+To understand this architecture approach in detail, we recommend to review our example [(Consume OpenAI services (GPT) through CAP & SAP AI Core)](https://github.com/SAP-samples/azure-openai-aicore-cap-api) which demonstrates the described architecture in a minimal way as boilerplate code or check out the short cut to set up a proxy with the [content package for large language models for SAP AI Core](https://pypi.org/project/sap-ai-core-llm/) on pypi.
 
 [<img src="https://github.com/SAP-samples/smart-co2nverter-ai/raw/main/documentation/assets/smart_co2nverter_logo.png" alt="logo" align="right" width="160" />](https://github.com/SAP-samples/smart-co2nverter-ai/)
 
