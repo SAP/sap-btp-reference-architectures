@@ -39,7 +39,7 @@ API access to Large Language Models such as Microsoft Azure OpenAI is offered th
 
 In a first and simple approach here, we use SAP AI Core to act as an proxy to access the external AI services and to expose a destination which can be consumed by your application.
 
-### [CAP](https://cap.cloud.sap/docs/) Application
+### [CAP Application](https://cap.cloud.sap/docs/)
 
 SAP's recommendation is to use Cloud Application Programming ([CAP](https://cap.cloud.sap/docs/)) as the entitiy layer of the application and [SAP UI5](https://ui5.sap.com/) if a user interface is required. 
 
@@ -49,11 +49,16 @@ The most important part in our example is the connection to the external AI serv
 
 Additionally, with this architecture you can benefit from the co-engineering work we have done with hyperscalers on SSO/Principal Propagation and [SAP Private Link Service](https://help.sap.com/docs/PRIVATE_LINK/42acd88cb4134ba2a7d3e0e62c9fe6cf/6c7c8a9282e344979295efb882637cd4.html) so that your data is secured within the network backbone and does not exit to the public internet.
 
-## Example
+## Examples
 
-To understand this architecture approach in detail, we recommend to review our example which demonstrates the described architecture in a minimal way. 
-Coming in the next days.
+To understand this architecture approach in detail, we recommend to review our example [(Consume OpenAI services (GPT) through CAP & SAP AI Core)](https://github.com/SAP-samples/azure-openai-aicore-cap-api) which demonstrates the described architecture in a minimal way as boilerplate code or check out the short cut to set up a proxy with the [content package for large language models for SAP AI Core](https://pypi.org/project/sap-ai-core-llm/) on pypi.
 
+[<img src="https://github.com/SAP-samples/smart-co2nverter-ai/raw/main/documentation/assets/smart_co2nverter_logo.png" alt="logo" align="right" width="160" />](https://github.com/SAP-samples/smart-co2nverter-ai/)
+
+The [Smart Co2nverter](https://github.com/SAP-samples/smart-co2nverter-ai) is an example of how the reference architecture for Azure OpenAI services can be implemented through the above boilerplate code, demonstrating its real-world capabilities: A mobile application enabling bank customers to be more climate conscious while strengthening their loyalty to the bank.
+
+<br clear="right"/>
+ 
 ## Further References
 
 * [The ChatGPT Cheat Sheet](https://drive.google.com/file/d/1OcHn2NWWnLGBCBLYsHg7xdOMVsehiuBK/view)
