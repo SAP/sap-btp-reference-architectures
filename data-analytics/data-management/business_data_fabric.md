@@ -1,7 +1,7 @@
 <!-- dc-ref-arch-metadata : 
     {
         "id": "ref-arch-business_data_fabric",
-        "name": "Businesss Data Fabric",
+        "name": "Business Data Fabric",
         "shortDescription": "Getting data from business applications is a significant challenge, the best approach isn’t to move data around and then try and reconstruct all the context that’s been lost.",
         "archDiagramLink": "architectures/business-data-fabric.png",
         "tags": "Data Analytics, Cross, Cloud",
@@ -13,7 +13,7 @@ dc-ref-arch-metadata  -->
 ![BTP Solution Architecture](architectures/business-data-fabric.png)
 
 <!-- dc-ref-arch-detail-page-start -->
-## **Businesss Data Fabric**
+## **Business Data Fabric**
 
 Use Case Category: **Data Management**
 
