@@ -12,13 +12,16 @@ For futher details please read als the blog about the [release of SAP Data and A
 
 ### Business Use Cases
 
-- [Business Insight & Decision Support](business-insight-and-decision-support/README.md)
+- Business Insight & Decision Support
+    - [Category Management](business-insight-and-decision-support/category_management.md)
 - Business Planning & Forecasting
 - Data-driven Market Offerings
-- [Predictive Analytics](predictive-analytics/README.md)
+- Predictive Analytics
+    - [Federated Machine Learning](predictive-analytics/fedml.md)
 
 ### Technical Use Cases
 
-- [Data Management](data-management/README.md)
+- [Data Management]
+    - [Business Data Fabric](data-management/BusinessDataFabric.md)
 - Data Governance
 
