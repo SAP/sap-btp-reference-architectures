@@ -25,5 +25,3 @@ Getting data from business applications is a significant challenge, the best app
 [A Deeper Look Into How SAP Datasphere Enables a Business Data Fabric](https://news.sap.com/2023/03/sap-datasphere-business-data-fabric/)
 
 [Explore your Hyperscaler data with SAP Datasphere | SAP Discovery Center](https://discovery-center.cloud.sap/missiondetail/3656/3699/)
-
-
