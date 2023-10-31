@@ -2,7 +2,7 @@
     {
         "id": "ref-arch-AWS-Azure-CAP-PLS",
         "name": "Secure Connectivity with SAP Private Link service",
-        "shortDescription": "Secure Connectivity with SAP Private Link service",
+        "shortDescription": "The reference architecture demonstrates how SAP Private Link service can be used to securely communicate with an SAP S/4HANA system deployed in a customer-managed Microsoft Azure or AWS account from SAP BTP, Cloud Foundry environment.",
         "archDiagramLink": "images/generic-privatelink.png",
         "tags": "Hyperscaler",
         "category": "Hyperscaler"
