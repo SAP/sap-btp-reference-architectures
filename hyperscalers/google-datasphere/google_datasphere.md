@@ -2,15 +2,15 @@
     {
         "id": "ref-arch-google-datasphere",
         "name": "Google & SAP Datasphere Integration",
-        "shortDescription": "Google & SAP Datasphere Integration",
+        "shortDescription": "Combine the data processing and analytical capabilities of the SAP Business Technology Platform based on SAP Datasphere and SAP Analytics Cloud with database, storage and AI capabilities of Google Cloud.",
         "archDiagramLink": "images/Google+Datasphere.png",
         "tags": "Hyperscaler, google, google cloud platform, gcp, sap datasphere, google bigquery, google cloud storage, vertex ai",
         "category": "Hyperscaler"
     }
 dc-ref-arch-metadata  -->
+![image](./images/Google+Datasphere.png)
 <!-- dc-ref-arch-detail-page-start -->
 ## **Google & SAP Datasphere Integration**
-![image](./images/Google+Datasphere.png)
 
 The solution diagram above shows how you can combine the data processing and analytical capabilities of the SAP Business Technology Platform based on SAP Datasphere and SAP Analytics Cloud with database, storage and AI capabilities of Google Cloud such as BigQuery, Google Cloud Storage and Vertex AI.
 SAP Datasphere enables a business data fabric architecture that uniquely harmonizes mission-critical data across the organization, unleashing business experts to make the most impactful decisions. It provides federated data access and remote table replication from SAP line of business solutions.
