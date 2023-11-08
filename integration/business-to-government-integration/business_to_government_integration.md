@@ -87,5 +87,4 @@ You use SAP Global Trade Services in context of global trade-related business pr
 ### Related Missions
 <!-- dc-ref-arch-related-missions-start -->
 - [Implement and Configure Electronic Invoicing for Italy](https://discovery-center.cloud.sap/missiondetail/3067/3079/)
-- [Send electronic invoices via the Peppol Network](https://discovery-center.cloud.sap/missiondetail/3287/3339/)
 <!-- dc-ref-arch-related-missions-end -->
