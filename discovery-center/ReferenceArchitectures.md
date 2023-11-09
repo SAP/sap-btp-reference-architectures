@@ -3,7 +3,6 @@
 
 <!-- dc-ref-arch-list-start -->
 * [Federated Machine Learning](../data-analytics/predictive-analytics/fedml.md)
-* [Business Data Fabric](../data-analytics/data-management/business_data_fabric.md)
 * [Application to Application Integration for Cloud Deployment](../integration/application-to-application-integration/Application_To_Application_Integration.md)
 * [Master Data Integration for Cloud Deployment](../integration/master-data-integration/master_data_integration.md)
 * [Business to Business Integration for Cloud Deployment](../integration/business-to-business-integration/business_to_business_integration.md)

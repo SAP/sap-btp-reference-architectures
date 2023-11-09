@@ -86,11 +86,8 @@ For selected SAP lines-of-business solutions further integration technologies ar
 - [SAP Integration Suite – Integration with SAP Master Data Integration (MDI) service (blog post)](https://blogs.sap.com/2022/05/20/sap-integration-suite-integration-with-sap-master-data-integration-mdi-service/) 
 - [Master Data Integration and Master Data Management: What’s the Difference (blog post)](https://blogs.sap.com/2020/10/23/master-data-integration-and-master-data-management-whats-the-difference/)
 - [SAP Master Data Integration (documentation)](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION)
-- [Cloud Integration capability within SAP Integration Suite (documentation)](https://help.sap.com/docs/cloud-integration)
 - [SAP Integration Solution Advisory Methodology (documentation)](https://help.sap.com/docs/architecture_guidance/f64ada51d9f44c83a751b96f955aad5a/85bcc8675d3e42718279bf7b87dafc2d.html?locale=en-US)
 - [SAP Master Data Integration in the Intelligent Enterprise (openSAP course)](https://open.sap.com/courses/mdi1)
-- [Modernize Integration with SAP Integration Suite (openSAP course)](https://open.sap.com/courses/btp3)
-- [SAP Integration Suite (SAP Community)](https://community.sap.com/topics/integration-suite)
 <!-- dc-ref-arch-resources-end -->
   
 ### Related Missions
