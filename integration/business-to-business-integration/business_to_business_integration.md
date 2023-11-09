@@ -75,12 +75,9 @@ This standard has been defined by the German Association of the Automotive Indus
 - [SAP Integration Suite (SAP Community)](https://community.sap.com/topics/integration-suite)
 -  [Integration Advisor: Overview of components for building B2B integration content and further reading (blog post)](https://blogs.sap.com/2021/09/28/integration-advisor-overview-of-components-for-building-b2b-integration-content-and-further-reading/)
 - [Announcement: SAP Trading Partner Management and B2B Monitoring brand new capabilities of SAP Integration Suite is released! (blog post)](https://blogs.sap.com/2021/12/17/announcement-sap-trading-partner-management-and-b2b-monitoring-brand-new-capabilities-of-sap-integration-suite-is-released/)
-- [Cloud Integration capability within SAP Integration Suite (documentation)](https://help.sap.com/docs/cloud-integration)
 - [Integration Advisor capability within SAP Integration Suite (documentation)](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/sap-integration-advisor?q=SAP%20Integration%20Advisor&locale=en-US)
 - [Trading Partner Management capability within SAP Integration Suite (documentation)](https://help.sap.com/docs/cloud-integration/sap-trading-partner-management/sap-trading-partner-management?q=SAP%20Trading%20Partner%20Management&locale=en-US)
 - [Integration Advisor Capability of SAP Integration Suite (openSAP course)](https://open.sap.com/courses/s4h20)
-- [Modernize Integration with SAP Integration Suite (openSAP course)](https://open.sap.com/courses/btp3)
-- [SAP Integration Suite (SAP Community)](https://community.sap.com/topics/integration-suite)
   
 <!-- dc-ref-arch-resources-end -->
 
