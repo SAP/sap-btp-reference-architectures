@@ -3,7 +3,7 @@
         "id": "ref-arch-open-ai",
         "name": "Retrieval Augmented Generation with GenAI on SAP BTP",
         "shortDescription": "Implement Retrieval-Augmented Generation (RAG) use cases on SAP BTP using SAP Cloud Application Programming (CAP) model. The architecture offers best practices for building multi-tenant applications and vector encoding using CAP and SAP HANA Cloud.",
-        "archDiagramLink": "images/multitenant-target.png",
+        "archDiagramLink": "images/multitenant-architecture.png",
         "tags": "Hyperscaler",
         "category": "Hyperscaler"
     }
