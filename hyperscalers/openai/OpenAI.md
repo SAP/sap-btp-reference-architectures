@@ -52,19 +52,11 @@ Furthermore, the system takes automation to the next level by generating potenti
 
 The reference architecture for CAP-based multitenant SaaS architecture using Retrieval Augmented Generation (RAG) uses the following SAP BTP services:
 
-- [SAP Business Application Studio](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio?region=all): SAP Business Application Studio (the next generation of SAP Web IDE) is a powerful and modern development environment, tailored for efficient development of business applications for the Intelligent Enterprise. Available as a cloud service, it provides developers a desktop-like experience similar to market leading IDEs, while accelerating time-to-market with high-productivity development tools such as wizards and templates, graphical editors, quick deployment, and more.
-
-- [SAP Continuous Integration and Delivery](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all): SAP Continuous Integration and Delivery lets you configure and run predefined continuous integration and delivery (CI/CD) pipelines that automatically build, test, and deploy your code changes to speed up your development and delivery cycles.
-
-- [SAP Cloud Transport Management](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management?region=all): SAP Cloud Transport Management service lets you manage software deliverables between accounts of different environments (such as Cloud Foundry, ABAP, and Neo), by transporting them across various runtimes. This includes application artifacts as well as their respective application-specific content.
-
 - [SAP HANA Cloud](https://discovery-center.cloud.sap/serviceCatalog/sap-hana-cloud?region=all): SAP HANA Cloud is a database-as-a-service that powers mission-critical applications and real-time analytics with one solution at petabyte scale. Converge relational, graph, spatial, and document store and develop smart applications with embedded machine learning. Process mission-critical data at proven in-memory speed and manage it more efficiently with integrated multi-tier storage.
 
 - [SAP AI Core](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all): SAP AI Core is a service in the SAP Business Technology Platform that is designed to handle the execution and operations of your AI assets in a standardized, scalable, and hyperscaler-agnostic way. It provides seamless integration with your SAP solutions. Any AI function can be easily realized using open-source frameworks. SAP AI Core supports full lifecycle management of AI scenarios.
 
 - [SAP AI Launchpad](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-launchpad?region=all): SAP AI Launchpad is a multitenant software as a service (SaaS) application in SAP Business Technology Platform. Customers and partners can use SAP AI Launchpad to manage AI use cases (scenarios) across multiple instances of AI runtimes (such as SAP AI Core).
-
-- [PostgreSQL on SAP BTP, hyperscaler option](https://discovery-center.cloud.sap/serviceCatalog/postgresql-hyperscaler-option?region=all): PostgreSQL on SAP BTP, hyperscaler option provides a managed relational database service, based on native PostgreSQL offerings from cloud providers AWS, Microsoft Azure, Google Cloud Platform and Alicloud.
 
 - [SAP BTP, Cloud Foundry Runtime](https://discovery-center.cloud.sap/serviceCatalog/cloud-foundry-runtime?region=all): The SAP BTP, Cloud Foundry runtime lets you develop polyglot cloud-native applications and run them on the SAP BTP Cloud Foundry environment.
 
@@ -72,11 +64,19 @@ The reference architecture for CAP-based multitenant SaaS architecture using Ret
 
 - [SAP HTML5 Application Repository Service for SAP BTP](https://discovery-center.cloud.sap/serviceCatalog/html5-application-repository-service?region=all): The HTML5 Application Repository service for SAP BTP enables central storage of HTML5 applications on SAP BTP. The service allows application developers to manage the lifecycle of their HTML5 applications. In runtime, the service enables the consuming application, typically the application router, to access HTML5 application static content in a secure and efficient manner.
 
-- [SAP Application Logging Service for SAP BTP](https://discovery-center.cloud.sap/serviceCatalog/application-logging-service?region=all): The SAP Application Logging service for SAP BTP lets you stream logs of bound Cloud Foundry applications to a central application logging stack. SAP Application Logging service for SAP BTP uses Elastic Stack to store and visualize your application log data.
-
 - [SAP Authorization and Trust Management Service](https://discovery-center.cloud.sap/serviceCatalog/authorization-and-trust-management-service?region=all): The SAP Authorization and Trust Management service lets you manage user authorizations and trust to identity providers. Identity providers are the user base for applications. We recommend that you use an IAS identity authentication tenant, an SAP on-premise system, or a custom corporate identity provider.
 
+- [SAP Cloud Transport Management](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management?region=all): SAP Cloud Transport Management service lets you manage software deliverables between accounts of different environments (such as Cloud Foundry, ABAP, and Neo), by transporting them across various runtimes. This includes application artifacts as well as their respective application-specific content.
+
+- [SAP Business Application Studio](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio?region=all): SAP Business Application Studio (the next generation of SAP Web IDE) is a powerful and modern development environment, tailored for efficient development of business applications for the Intelligent Enterprise. Available as a cloud service, it provides developers a desktop-like experience similar to market leading IDEs, while accelerating time-to-market with high-productivity development tools such as wizards and templates, graphical editors, quick deployment, and more.
+
+- [SAP Continuous Integration and Delivery](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all): SAP Continuous Integration and Delivery lets you configure and run predefined continuous integration and delivery (CI/CD) pipelines that automatically build, test, and deploy your code changes to speed up your development and delivery cycles.
+
+- [SAP Application Logging Service for SAP BTP](https://discovery-center.cloud.sap/serviceCatalog/application-logging-service?region=all): The SAP Application Logging service for SAP BTP lets you stream logs of bound Cloud Foundry applications to a central application logging stack. SAP Application Logging service for SAP BTP uses Elastic Stack to store and visualize your application log data.
+
 - [Application Autoscaler](https://discovery-center.cloud.sap/serviceCatalog/application-autoscaler?service_plan=standard&region=all&commercialModel=cloud): Application Autoscaler lets you automatically increase or decrease the number of your application instances based on the policies you have defined.
+
+- [SAP BTP, Kyma runtime (optional)](https://discovery-center.cloud.sap/serviceCatalog/kyma-runtime/?region=all): SAP BTP, Kyma runtime is a fully managed Kubernetes runtime based on the open-source project "Kyma". This cloud-native solution allows the developers to extend SAP solutions with serverless Functions and combine them with containerized microservices. The offered functionality ensures smooth consumption of SAP and non-SAP applications, running workloads in a highly scalable environment, and building event- and API-based extensions.
 
 <!-- dc-ref-arch-services-end -->
 
@@ -98,5 +98,6 @@ For more information about the different technologies used as part of this refer
 
 If you would like to implement solutions that are related to this reference architecture and technologies used you may continue with the following SAP Discovery Center missions:
 
-- [Reduce your CO2 footprint using a smart Generative AI application on SAP BTP](https://discovery-center.cloud.sap/missiondetail/4264/4522/)
+- [Develop a CAP-based (multitenant) application using GenAI and RAG](https://discovery-center.cloud.sap/missiondetail/4371/)
+- [Reduce your CO2 footprint using a smart Generative AI application on SAP BTP](https://discovery-center.cloud.sap/missiondetail/4264/)
 <!-- dc-ref-arch-related-missions-end -->
