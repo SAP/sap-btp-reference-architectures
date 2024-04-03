@@ -65,7 +65,7 @@ You use SAP Global Trade Services in context of global trade-related business pr
 
 ### Services and Components
 <!-- dc-ref-arch-services-start -->
-- [SAP Integration Suite](https://discovery-center.cloud.sap/serviceCatalog/integration-suite?region=all)
+- [SAP Integration Suite](https://discovery-center.cloud.sap/serviceCatalog/integration-suite?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
 - [SAP Connectivity service](https://discovery-center.cloud.sap/serviceCatalog/connectivity-service?region=all)
 <!-- dc-ref-arch-services-end -->
 
