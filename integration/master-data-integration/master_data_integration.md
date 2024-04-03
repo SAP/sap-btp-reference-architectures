@@ -69,7 +69,7 @@ For selected SAP lines-of-business solutions further integration technologies ar
 
 ### Services and Components
 <!-- dc-ref-arch-services-start -->
-- [SAP Integration Suite](https://discovery-center.cloud.sap/serviceCatalog/integration-suite?region=all)
+- [SAP Integration Suite](https://discovery-center.cloud.sap/serviceCatalog/integration-suite?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
 - [SAP Master Data Integration](https://discovery-center.cloud.sap/serviceCatalog/master-data-integration?region=all)
 - [SAP Connectivity service](https://discovery-center.cloud.sap/serviceCatalog/connectivity-service?region=all)
 <!-- dc-ref-arch-services-end -->
