@@ -2,7 +2,7 @@
 
 # SAP BTP reference architectures
 
-## About this project
+## About this project 
 
 The SAP Business Technology Platform BTP forms the foundation of the Intelligent Sustainable Enterprise.
 
