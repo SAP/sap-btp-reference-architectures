@@ -86,9 +86,12 @@ The reference architecture for CAP-based multitenant SaaS architecture using Ret
 
 For more information about the different technologies used as part of this reference architecture you may check out the following resources:
 
-- Documentation: [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
-- Blog post: [SAP BTP Use Cases Kick-Start Transformation with Pre-Built Business Content](https://news.sap.com/2023/05/sap-btp-use-cases-art-of-the-possible/)
-- GitHub: [Develop a CAP-based (multitenant) application using GenAI and RAG on SAP BTP](https://github.com/SAP-samples/btp-cap-genai-rag)
+- Generative AI Hub in SAP AI Core Overview [Generative AI Hub in SAP AI Core Overview](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core)
+- Documentation OpenAI [Generative AI Hub in SAP AI Core](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub)
+- Blog post [SAP BTP Use Cases Kick-Start Transformation with Pre-Built Business Content](https://news.sap.com/2023/05/sap-btp-use-cases-art-of-the-possible/)
+- GitHub [Reference Application: GenAI Mail Insights](https://github.com/SAP-samples/btp-cap-genai-rag)
+- SAP BTP genAI starter kit [SAP BTP genAI starter kit](https://github.com/SAP-samples/btp-genai-starter-kit)
+- CAP LLM Plugin [CAP LLM Plugin](https://www.npmjs.com/package/cap-llm-plugin)
 
 <!-- dc-ref-arch-resources-end -->
 
@@ -98,6 +101,6 @@ For more information about the different technologies used as part of this refer
 
 If you would like to implement solutions that are related to this reference architecture and technologies used you may continue with the following SAP Discovery Center missions:
 
-- [Develop a CAP-based (multitenant) application using GenAI and RAG](https://discovery-center.cloud.sap/missiondetail/4371/)
+- [GenAI Mail Insights: Develop a CAP-based (multitenant) application using GenAI and RAG](https://discovery-center.cloud.sap/missiondetail/4371/)
 - [Reduce your CO2 footprint using a smart Generative AI application on SAP BTP](https://discovery-center.cloud.sap/missiondetail/4264/)
 <!-- dc-ref-arch-related-missions-end -->
