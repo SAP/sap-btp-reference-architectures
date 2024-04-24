@@ -43,7 +43,7 @@ SAP doesn’t deliver predefined integration scenarios that follow an API manage
 
 ### Services and Components
 <!-- dc-ref-arch-services-start -->
-- [SAP Integration Suite](https://discovery-center.cloud.sap/serviceCatalog/integration-suite?region=all)
+- [SAP Integration Suite](https://discovery-center.cloud.sap/serviceCatalog/integration-suite?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
 <!-- dc-ref-arch-services-end -->
 
 ### Resources
