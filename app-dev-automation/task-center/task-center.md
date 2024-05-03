@@ -1,7 +1,7 @@
 <!-- dc-ref-arch-metadata : 
     {
         "id": "ref-arch-sap-task-center",
-        "name": "SAP Task Center",
+        "name": "Establish a central inbox with SAP Task Center",
         "shortDescription": "SAP Task Center helps you integrate tasks into a central solution.",
         "archDiagramLink": "images/task-center.png",
         "tags": "SAP Task Center, integration, task providers, one workflow inbox, task federation, ISA-M",

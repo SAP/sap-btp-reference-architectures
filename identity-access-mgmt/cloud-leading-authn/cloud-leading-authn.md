@@ -23,13 +23,13 @@ Finally, the SAP Cloud Identity Services can act as identity provider, capable o
 In the scenario in the figure the SAP Cloud Identity Services redirect the incoming authentication request to a configured Identity Provider and act as broker. This scenario is very common for employee scenarios if the company uses one central IdP across several vendors. This scenario also works in combination with new applications which use the Identity Directory within the SAP Cloud Identity Services to store the identities and their assignments. SAP Cloud Identity Services can verify against the Identity Directory if and how the authentication flow should be federated to an external Identity Provider or which attributes would be merged into the authentication tokens which are only relevant for the SAP landscape.
 As conclusion the SAP Cloud Identity Services act either as the secure Identity Provider for your SAP landscape or as a facade for the SAP applications to your existing Identity Provider. In both setups you benefit from the templates and integrations within the SAP environment and a lower integration effort into your non-SAP cybersecurity toolset.
 
-### Flow
+## Flow
 
 The following flows start in the application. Those are known as SAML Service Provider initiated and OIDC Resource Provider initiated flow. Those are the most common scenarios.
 
 > <ins>Note:</ins> If SAML is used in the complete chain then  (3rd party) IdP initiated SAML flows  are supported,  but this would be just an option and not the default or recommendation.
 
-#### A) SP / RP initiated flow (SAML / OIDC) for Web applications
+### A) SP / RP initiated flow (SAML / OIDC) for Web applications
 
 The following flow can be applied to SAP Cloud applications and SAP On-Premises applications (incl. private cloud) which are integrated with the SAP Cloud Identity Services - Identity Authentication.
 
@@ -41,31 +41,31 @@ The following flow can be applied to SAP Cloud applications and SAP On-Premises 
     - no: The IAS presents a login screen
     - yes: e.g. in general for all SAP applications a redirect is enabled - IAS redirects the application client to the 3rd party Identity Provider
 
-#### B) Federation flow with 3rd party Identity Providers (IdP) for Web applications
+### B) Federation flow with 3rd party Identity Providers (IdP) for Web applications
 
 6. The 3rd party Identity Provider authenticates the user.
 7. The 3rd party IdP redirects the application client with the authenticated user details to IAS.
 8. The IAS accepts the incoming token and processes it based on the app-configuration.
 > :warning: In the past the common scenario was [**IAS proxy**](https://help.sap.com/docs/identity-authentication/identity-authentication/corporate-identity-providers?locale=en-US) without the user present in IdDS. This reference architecture expects the user present in IdDS and the [***Federation setting "Use Identity Authentication user store" enabled***](https://help.sap.com/docs/identity-authentication/identity-authentication/corp-idp-configure-identity-federation?locale=en-US#context) :warning:
 
-#### C) Application authentication for Web applications
+### C) Application authentication for Web applications
 
 9. The IAS creates a new token based on the application-configuration SAML or OIDC with attributes used from the 3rd party IdP and/or from the IdDS.
 10. The IAS redirects the application client to the application.
 11. The application accepts the token from IAS and creates a new user-session. The user is logged in.
 
-#### D) SAP GUI Single Sign-On
+### D) SAP GUI Single Sign-On
 
 The Single Sign-On flow for SAP GUI applications re-uses the same authentication flow with Cloud Identity Services - Identity Authentication as the Web applications. The difference is that the SAP GUI uses a different protocol. The SAP GUI uses X.509 certificates for the authentication. The flow is as follows:
 
 1. The users starts the SAP GUI and activates the SSO features with SAP Cloud Identity Services.
 2. The user authenticates against the IAS.
-3. The IAS creates a new OIDC token with attributes. As described above the attributes could come from the 3rd party IdP and/or from the IdDS. IAS hands the token over to the SAP Secure Login Service for SAP GUI (SLS). 
+3. The IAS creates a new OIDC token with attributes. As described above the attributes could come from the 3rd party IdP and/or from the IdDS. IAS hands the token over to the [SAP Secure Login Service for SAP GUI](https://help.sap.com/sls) (SLS). 
 4. The SLS creates a short term X.509 certificate for the authenticated user and stores it in the certificate store the SAP GUI uses.
 5. The SAP GUI uses the X.509 certificate to authenticate against the SAP application.
 
 
-### Characteristics
+## Characteristics
 
 This setup has the following characteristics:
 - One Authentication interface for all SAP applications via the SAP Cloud Identity Services - Identity Authentication
@@ -79,13 +79,14 @@ This setup has the following characteristics:
 <!-- dc-ref-arch-services-start -->
 - [SAP Cloud Identity Services - Identity Provisioning](https://discovery-center.cloud.sap/serviceCatalog/identity-provisioning?service_plan=sap-cloud-to-sap-cloud&region=all&commercialModel=cloud)
 - [SAP Cloud Identity Services - Identity Authentication](https://discovery-center.cloud.sap/serviceCatalog/identity-authentication?region=all)
+- [SAP Cloud Identity Services - Identity Directory](https://api.sap.com/api/IdDS_SCIM/overview)
+- [SAP Cloud Identity Services - Authorization Management](https://help.sap.com/docs/identity-authentication/identity-authentication/configuring-authorization-policies?version=Cloud)
 <!-- dc-ref-arch-services-end -->
 
 ### Resources
 <!-- dc-ref-arch-resources-start -->
-- [SAP Cloud Identity Services - Identity Directory](https://api.sap.com/api/IdDS_SCIM/overview)
-- [SAP Cloud Identity Services - Authorization Management](https://help.sap.com/docs/identity-authentication/identity-authentication/configuring-authorization-policies?version=Cloud)
 - [SAP Cloud Identity Services](https://help.sap.com/docs/cloud-identity?version=Cloud&locale=en-US)
+- [SAP Secure Login Service for SAP GUI](https://help.sap.com/sls)
 <!-- dc-ref-arch-resources-end -->
 
 ### Related Missions
