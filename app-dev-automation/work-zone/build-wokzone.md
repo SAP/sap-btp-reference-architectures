@@ -1,7 +1,7 @@
 <!-- dc-ref-arch-metadata : 
     {
         "id": "ref-arch-sap-build-work-zone",
-        "name": "SAP Build Work Zone",
+        "name": "Establish a central entry point with SAP Build Work Zone",
         "shortDescription": "SAP Build Work Zone enables you to easily build business sites that provide centralized access to business application information on any device.",
         "archDiagramLink": "images/build-work-zone.png",
         "tags": "SAP Build Work Zone, business site, content federation, content channel, digital workplace, launchpad, work zone, SAP Mobile Start, ISA-M",
