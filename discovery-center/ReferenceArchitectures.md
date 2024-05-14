@@ -15,5 +15,6 @@
 * [Cloud leading Identity Lifecycle Authorizations](../identity-access-mgmt/cloud-leading-authz/cloud-leading-authz.md)
 * [Cloud leading Identity Lifecycle](../identity-access-mgmt/cloud-leading-identity-lifecycle/cloud-leading-identity-lifecycle.md)
 * [Establish a central entry point with SAP Build Work Zone](../app-dev-automation/work-zone/build-wokzone.md)
-* [Establish a central inbox with SAP Task Center](../app-dev-automation/task-center/task-center.md)   
+* [Establish a central inbox with SAP Task Center](../app-dev-automation/task-center/task-center.md)
+* [Integrate and extend SAP and non-SAP solutions with SAP Build Process Automation](../app-dev-automation/build-process-automation/build-process-automation.md)   
 <!-- dc-ref-arch-list-end -->
