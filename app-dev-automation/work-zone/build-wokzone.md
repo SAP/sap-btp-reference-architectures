@@ -80,7 +80,8 @@ These use cases showcase the broad applicability and impact of SAP Build Work Zo
 
 ### Services and Components
 <!-- dc-ref-arch-services-start -->
-- [SAP Build Work Zone](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-advanced-edition?region=all)
+- [SAP Build Work Zone Advanced Edition](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-advanced-edition?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
+- [SAP Build Work Zone Standard Edition](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-standard-edition?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
 - [SAP Build Apps](https://discovery-center.cloud.sap/serviceCatalog/sap-build-apps?region=all)
 - [SAP Build Process Automation](https://discovery-center.cloud.sap/serviceCatalog/sap-build-process-automation?region=all)
 - [SAP Business Application Studio](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio?region=all)
