@@ -3,7 +3,7 @@
         "id": "ref-arch-build-process-automation",
         "name": "Integrate and extend SAP and non-SAP solutions with SAP Build Process Automation",
         "shortDescription": "Automate business processes across cloud and on-premise solutions using workflow and robotic process automation capabilities.",
-        "archDiagramLink": "images/SAP_Build_Process_Automation.svg",
+        "archDiagramLink": "images/SAP_Build_Process_Automation.png",
         "tags": "automation, enterprise automation, workflow, rpa, lcnc, low-code no-code, integration, cloud, on-premise, isa-m",
         "category": "Application Development, Automation"
     }

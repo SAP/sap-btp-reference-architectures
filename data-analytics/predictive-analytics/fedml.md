@@ -29,7 +29,7 @@ The SAP Federated ML Python libraries (FedML) applies the Data Federation archit
 
 ### BTP services / SAP solutions
 <!-- dc-ref-arch-services-start -->
-[SAP Datasphere](https://discovery-center.cloud.sap/#/serviceCatalog/sap-datasphere?region=all)
+[SAP Datasphere](https://discovery-center.cloud.sap/#/serviceCatalog/sap-datasphere?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
 <!-- dc-ref-arch-services-end -->
 ### References
 <!-- dc-ref-arch-resources-start -->

@@ -77,7 +77,7 @@ SAP offers various SAP cloud and on premise solutions, which offer separate inbo
 ### Services and Components
 <!-- dc-ref-arch-services-start -->
 - [SAP Build Work Zone](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-advanced-edition?region=all)
-- [SAP Task Center](https://discovery-center.cloud.sap/serviceCatalog/sap-task-center?region=all)
+- [SAP Task Center](https://discovery-center.cloud.sap/serviceCatalog/sap-task-center?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
 - [SAP Cloud Identity Authentication](https://discovery-center.cloud.sap/serviceCatalog/identity-authentication?region=all)
 - [SAP Cloud Identity Provisioning](https://discovery-center.cloud.sap/serviceCatalog/identity-provisioning?region=all)
 - [SAP Connectivity Service](https://discovery-center.cloud.sap/serviceCatalog/connectivity-service?region=all)

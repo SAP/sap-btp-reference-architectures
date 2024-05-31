@@ -1,6 +1,4 @@
 # Reference architecture of an SAP BTP CAP application using GPT Models of OpenAI
-> [!IMPORTANT]
-> Given the recommendation to utilize the [generative AI hub](https://www.sap.com/events/teched/news-guide/ai.html#article8) (General Availability Q4/2023) for foundational model access, we kindly refer the latest [Reference Architecture](https://discovery-center.cloud.sap/refArchDetail/ref-arch-open-ai) and to [btp-cap-genai-rag](https://github.com/SAP-samples/btp-cap-genai-rag) to understand the process of establishing a connection from CAP through the Generative AI Hub to Azure OpenAI
 
 You want to make use of one of the Large Language Models (LLMs) like the GPT family of LLMs offered by Microsoft Azure OpenAI in combination with an application running on SAP Business Technology Platform (BTP), here is our recommendation how to achieve this and also benefit from the BTP capabilities.
 
