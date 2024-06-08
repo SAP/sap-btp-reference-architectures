@@ -5,7 +5,7 @@
         "id": "ref-arch-multi-region-ha",
         "name": "Architecting Multi-Region Resiliency for SAP BTP Services",
         "shortDescription": "Ensure business-critical SAP BTP services and applications remain highly available, providing robust disaster recovery and minimal downtime.",
-        "archDiagramLink": "ref-arch-multi-region-ha.png",
+        "archDiagramLink": "images/ref-arch-multi-region-ha.png",
         "tags": "high availability, muti-region ha, integration suite, cloud integration, workzone, standard edition",
         "category": "Hyperscaler"
     }
