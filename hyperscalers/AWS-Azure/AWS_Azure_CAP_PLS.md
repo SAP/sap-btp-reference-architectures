@@ -90,10 +90,14 @@ For more information about the different technologies used as part of this refer
 - Blog post: [SAP Private Link in Action: How FrieslandCampina safeguards their integration flows with Azure Storage Account](https://blogs.sap.com/2023/04/07/sap-private-link-in-action-how-frieslandcampina-safeguards-their-integration-flows-with-azure-storage-account/)
 - Blog post: [SAP Private Link service use cases for SAP Cloud Integration and SAP Build Work Zone, Standard Edition](https://blogs.sap.com/2022/08/22/sap-private-link-service-use-cases-for-sap-cloud-integration-and-sap-launchpad/)
 - Blog post: [SAP Private linky swear with Azure – running Cloud Connector and SAP Private Link side-by-side](https://blogs.sap.com/2022/07/07/btp-private-linky-swear-with-azure-running-cloud-connector-and-sap-private-link-side-by-side/)
+- Blog post: [SAP Private Link service is integrated to SAP BTP, Kyma runtime](https://community.sap.com/t5/technology-blogs-by-sap/sap-private-link-service-is-integrated-to-sap-btp-kyma-runtime/ba-p/13614067)
 - GitHub: [Enhance core ERP business processes with resilient applications on SAP BTP](https://github.com/SAP-samples/btp-build-resilient-apps/blob/main/tutorials/05_setupconnectivity/privatelink.md)
 - GitHub: [SAP Private Link Service Use Cases for SAP Cloud Integration and SAP Build Work Zone, Standard Edition](https://github.com/SAP-samples/btp-private-link-approuter)
-- Tutorial: [Connect SAP Private Link Service to Microsoft Azure Private Link Service](https://developers.sap.com/mission.private-link-connect.html)
-- Tutorial: [Connect SAP Private Link Service to AWS Private Link Service](https://developers.sap.com/tutorials/private-link-aws.html)
+- Tutorial: [Connect SAP Private Link Service to Microsoft Azure Private Link Service (CF)](https://developers.sap.com/mission.private-link-connect.html)
+- Tutorial: [Connect SAP Private Link Service to Microsoft Azure Private Link Service (Kyma)](https://developers.sap.com/tutorials/private-link-azure-kyma.html)
+- Tutorial: [Connect SAP Private Link Service to AWS Private Link Service (CF)](https://developers.sap.com/tutorials/private-link-aws.html)
+- Tutorial: [Connect SAP Private Link Service to AWS Private Link Service (Kyma)](https://developers.sap.com/tutorials/private-link-aws-kyma.html)
+
 
 <!-- dc-ref-arch-resources-end -->
 
