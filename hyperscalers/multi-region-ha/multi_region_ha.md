@@ -66,7 +66,7 @@ Characteristics of a Multi-Region includes:
 - [Custom Domain Service](https://discovery-center.cloud.sap/serviceCatalog/custom-domain)
 - [SAP Build Work Zone, standard edition](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-standard-edition) (Optional)
 - [SAP HANA Cloud](https://discovery-center.cloud.sap/serviceCatalog/sap-hana-cloud?region) (Optional)
-- [SAP Integration Suite, advanced event mesh](https://discovery-center.cloud.sap/serviceCatalog/integration-https://discovery-center.cloud.sap/serviceCatalog/advanced-event-mesh) (Optional)
+- [SAP Integration Suite, advanced event mesh](https://discovery-center.cloud.sap/serviceCatalog/advanced-event-mesh) (Optional)
 - [SAP BTP, Cloud Foundry Runtime](https://discovery-center.cloud.sap/serviceCatalog/cloud-foundry-runtime) (Optional)
 <!-- dc-ref-arch-services-end -->
 
