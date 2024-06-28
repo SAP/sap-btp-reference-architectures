@@ -1,1 +1,0 @@
-## Integration Reference Architectures
