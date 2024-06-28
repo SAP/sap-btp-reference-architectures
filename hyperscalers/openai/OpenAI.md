@@ -1,8 +1,8 @@
 <!-- dc-ref-arch-metadata :
     {
         "id": "ref-arch-open-ai",
-        "name": "Retrieval Augmented Generation with GenAI on SAP BTP",
-        "shortDescription": "Implement Retrieval-Augmented Generation (RAG) use cases on SAP BTP using SAP Cloud Application Programming (CAP) model. The architecture offers best practices for building multi-tenant applications and vector encoding using CAP and SAP HANA Cloud.",
+        "name": "Retrieval Augmented Generation and Generative AI on SAP BTP",
+        "shortDescription": "Implement Retrieval Augmented Generation (RAG) and Generative AI use cases on SAP BTP using SAP Cloud Application Programming Model (CAP), Generative AI Hub and SAP HANA Cloud's Vector Engine.",
         "archDiagramLink": "images/multitenant-architecture.png",
         "tags": "Hyperscaler",
         "category": "Hyperscaler"
@@ -10,37 +10,37 @@
 dc-ref-arch-metadata  -->
 <!-- dc-ref-arch-detail-page-start -->
 
-## **CAP-based multitenant SaaS architecture using Retrieval Augmented Generation (RAG)**
+## **CAP-based (multitenant SaaS) architecture using Retrieval Augmented Generation (RAG)**
 
-RAG, which stands for "Retrieval-Augmented Generation", is a neural architecture that combines the strengths of large pre-trained language models with external retrieval or search mechanisms. The main goal of the RAG architecture is to improve the capability of language models by allowing them to pull relevant information from a vast corpus, much like how search engines retrieve relevant web pages based on queries. RAG is used for various tasks such as question answering and knowledge-intensive NLP tasks. The architecture represents an interesting fusion of retrieval-based and generation-based approaches to NLP.
+RAG, which stands for "Retrieval Augmented Generation", is a neural architecture that combines the strengths of large language models (LLMs) with external retrieval or search mechanisms. The main goal of the RAG architecture is to improve the capability of LLMs by allowing them to pull relevant information from a vast corpus, much like how search engines retrieve relevant web pages based on queries. RAG is used for various tasks such as question answering (Q&A) and knowledge-intensive Natural Language Processing (NLP) tasks. The architecture represents an interesting fusion of retrieval-based and generation-based approaches to NLP.
 
-In this reference architecture pattern, how to seamlessly combine various Large Language Models (LLMs) using SAP AI Core. Maximize the potential of LangChain in [CAP](https://cap.cloud.sap/docs/) model and implement advanced methods such as custom schema-based output parsing or Retrieval Augmented Generation (RAG) with embeddings and a vector database to further enhance the benefits for your specific needs. This reference architecture accommodates both Cloud Foundry and Kyma runtimes, providing adaptability in your endeavor to leverage GenAI on SAP BTP.
+In this reference architecture pattern, how to seamlessly combine various Large Language Models (LLMs) using the [Generative AI Hub](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core) in SAP AI Core (see [Models and Scenarios in the Generative AI Hub](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub) and [Availability of Generative AI Models](https://me.sap.com/notes/3437766)). Maximize the potential of LangChain, [CAP LLM Plugin](https://www.npmjs.com/package/cap-llm-plugin) and other SDKs and plugins in [CAP](https://cap.cloud.sap/docs/) model and implement advanced methods such as Retrieval Augmented Generation (RAG) with embeddings and a [SAP HANA Cloud's Vector Engine](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-vector-engine-guide/sap-hana-cloud-sap-hana-database-vector-engine-guide) to further enhance the benefits for your specific needs. This reference architecture accommodates both Cloud Foundry and Kyma runtimes, providing adaptability in your endeavor to leverage GenAI on SAP BTP.
 
 ### Flow
 
-Here is a high-level flow of how RAG architecture works:
+Here is a high-level flow of how Retrieval Augmented Generation works:
 
-**Question Encoding**: The user provides a question or prompt, which is then encoded by a sequence-to-sequence model into a dense vector.
+1. **Question Encoding**: The user provides a question or prompt, which is then encoded by an embedding model into a dense vector (embedding).
 
-**Document Retrieval**: This dense vector is used as a query to retrieve relevant documents (or passages) from a large corpus. The retrieval is typically done using a dense vector space search, where documents in the corpus are pre-embedded in the same dense vector space. The top-k most relevant documents or passages are retrieved based on their proximity to the query vector.
+2. **Document Retrieval**: This embedding is used as part of a query to retrieve relevant documents (or chunks) from a large corpus of pre-embedded documents leveraging SAP HANA Cloud's Vector Engine. The retrieval is typically done using a similarity search like cosine similarity. The top-k most relevant documents or passages are retrieved based on their proximity to the query vector.
 
-**Answer Generation**: The retrieved documents and the original question are fed into a Large Language Model to generate an answer. The model is fine-tuned on a downstream task to generate relevant responses based on both the input question and the retrieved passages.
+3. **Answer Generation**: The retrieved documents and the original question are fed into a LLM to generate an answer. The model is instructed to generate relevant responses based on both, the input question and the retrieved passages.
 
 ### Characteristics
 
 Key characteristics of RAG architecture includes:
 
-**Increased Knowledge**: Even if the base LLM has not been trained on certain information, as long as that information exists in the corpus used for retrieval, RAG can still provide relevant answers.
+**Increased Knowledge**: Even if the base LLM has not been trained on certain information, as long as that information exists in the corpus used for retrieval, RAG can still provide relevant answers and reduce hallucinations.
 
 **Flexibility**: By changing the underlying corpus, RAG can be adapted to different domains or knowledge bases.
 
-**Memory Efficiency**: Instead of having to increase the size of the language model to store more information, RAG leverages external data sources, keeping the model size manageable.
+**Memory Efficiency**: Instead of having to fine-tune the LLMl to learn about the domain, RAG leverages external data sources, keeping the model manageable best and adaptable.
 
 ### Examples in an SAP Context
 
-The reference architecture illustrates a multitenant application developed by a potential SAP partner or customer, tailored for SAP Business Technology Platform (SAP BTP). This scenario presents a SaaS solution for enhancing customer support within a travel agency, utilizing advanced email insights and automation. The system analyzes incoming emails using Large Language Models (LLMs) to offer core insights such as categorization, sentiment analysis and urgency assessment. It goes beyond basic analysis by extracting key facts and customizable fields like location, managed through a dedicated configuration page.
+The reference architecture illustrates a (multi-tenant) application developed by a potential SAP partner or customer, tailored for SAP Business Technology Platform (SAP BTP). This scenario presents a (SaaS) solution for enhancing customer support within a travel agency, utilizing advanced email insights and automation. The system analyzes incoming emails using Large Language Models (LLMs) to offer core insights such as categorization, sentiment analysis and urgency assessment. It goes beyond basic analysis by extracting key facts and customizable fields like location, managed through a dedicated configuration page.
 
-One innovative feature involves utilizing email embeddings to identify similar historical emails, aiding in understanding how similar requests were handled previously. This fosters consistent and efficient customer service. The code also demonstrates the capabilities of summarizing and translating both email subject and body, enabling streamlined comprehension across languages.
+In this use case, the RAG feature involves utilizing email embeddings to identify similar historical emails, aiding in understanding how similar requests were handled previously. This fosters consistent and efficient customer service. The code also demonstrates the capabilities of summarizing and translating both email subject and body, enabling streamlined comprehension across languages.
 
 Furthermore, the system takes automation to the next level by generating potential responses for customer inquiries. This response generation is influenced by configurable actions and services, enhancing response accuracy and speed. The flexibility to connect with SAP systems like SAP Concur adds an enterprise dimension, allowing seamless integration of processes and data.
 
@@ -49,8 +49,6 @@ Furthermore, the system takes automation to the next level by generating potenti
 ### BTP services / SAP solutions
 
 <!-- dc-ref-arch-services-start -->
-
-The reference architecture for CAP-based multitenant SaaS architecture using Retrieval Augmented Generation (RAG) uses the following SAP BTP services:
 
 - [SAP HANA Cloud](https://discovery-center.cloud.sap/serviceCatalog/sap-hana-cloud?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->: SAP HANA Cloud is a database-as-a-service that powers mission-critical applications and real-time analytics with one solution at petabyte scale. Converge relational, graph, spatial, and document store and develop smart applications with embedded machine learning. Process mission-critical data at proven in-memory speed and manage it more efficiently with integrated multi-tier storage.
 
