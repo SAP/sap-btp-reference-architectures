@@ -3,7 +3,7 @@
         "id": "ref-arch-open-ai",
         "name": "Retrieval Augmented Generation and Generative AI on SAP BTP",
         "shortDescription": "Implement Retrieval Augmented Generation (RAG) and Generative AI use cases on SAP BTP using SAP Cloud Application Programming Model (CAP), Generative AI Hub and SAP HANA Cloud's Vector Engine.",
-        "archDiagramLink": "images/multitenant-architecture.png",
+        "archDiagramLink": "images/displayed-architecture.png",
         "tags": "Hyperscaler",
         "category": "Hyperscaler"
     }
@@ -12,9 +12,11 @@ dc-ref-arch-metadata  -->
 
 ## **CAP-based (multitenant SaaS) architecture using Retrieval Augmented Generation (RAG)**
 
-RAG, which stands for "Retrieval Augmented Generation", is a neural architecture that combines the strengths of large language models (LLMs) with external retrieval or search mechanisms. The main goal of the RAG architecture is to improve the capability of LLMs by allowing them to pull relevant information from a vast corpus, much like how search engines retrieve relevant web pages based on queries. RAG is used for various tasks such as question answering (Q&A) and knowledge-intensive Natural Language Processing (NLP) tasks. The architecture represents an interesting fusion of retrieval-based and generation-based approaches to NLP.
+RAG, which stands for Retrieval Augmented Generation, is a neural architecture that combines the strengths of Foundation Models (FMs) or Large anguage Models (LLMs) with external retrieval or search mechanisms. The main goal of the RAG architecture is to improve the capability of LLMs by allowing them to pull relevant information from a vast corpus, much like how search engines retrieve relevant web pages based on queries. RAG is used for various tasks such as question answering (Q&A) and knowledge-intensive Natural Language Processing (NLP) tasks. The architecture represents an interesting fusion of retrieval-based and generation-based approaches to NLP.
 
-In this reference architecture pattern, how to seamlessly combine various Large Language Models (LLMs) using the [Generative AI Hub](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core) in SAP AI Core (see [Models and Scenarios in the Generative AI Hub](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub) and [Availability of Generative AI Models](https://me.sap.com/notes/3437766)). Maximize the potential of LangChain, [CAP LLM Plugin](https://www.npmjs.com/package/cap-llm-plugin) and other SDKs and plugins in [CAP](https://cap.cloud.sap/docs/) model and implement advanced methods such as Retrieval Augmented Generation (RAG) with embeddings and a [SAP HANA Cloud's Vector Engine](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-vector-engine-guide/sap-hana-cloud-sap-hana-database-vector-engine-guide) to further enhance the benefits for your specific needs. This reference architecture accommodates both Cloud Foundry and Kyma runtimes, providing adaptability in your endeavor to leverage GenAI on SAP BTP.
+In this reference architecture pattern ([multitenant](https://discovery-center.cloud.sap/githubrefarch/SAP/sap-btp-reference-architectures/main/hyperscalers/openai/images/multitenant-architecture.png), [single tenant](https://discovery-center.cloud.sap/githubrefarch/SAP/sap-btp-reference-architectures/main/hyperscalers/openai/images/singletenant-architecture.png)), how to seamlessly combine various Large Language Models (LLMs) using the [Generative AI Hub](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core) in SAP AI Core. Maximize the potential of LangChain, [CAP LLM Plugin](https://www.npmjs.com/package/cap-llm-plugin) and other SDKs and plugins in [Cloud Application Programming model (CAP)](https://cap.cloud.sap/docs/) and implement advanced methods such as Retrieval Augmented Generation (RAG) with embeddings and a [SAP HANA Cloud's Vector Engine](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-vector-engine-guide/sap-hana-cloud-sap-hana-database-vector-engine-guide) to further enhance the benefits for your specific needs. This reference architecture accommodates both Cloud Foundry and Kyma runtimes, providing adaptability in your endeavor to leverage GenAI on SAP BTP.
+
+Please review [Models and Scenarios in the Generative AI Hub](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub) and [Availability of Generative AI Models](https://me.sap.com/notes/3437766) for a full list and overview of available Models.
 
 ### Flow
 
@@ -34,11 +36,11 @@ Key characteristics of RAG architecture includes:
 
 **Flexibility**: By changing the underlying corpus, RAG can be adapted to different domains or knowledge bases.
 
-**Memory Efficiency**: Instead of having to fine-tune the LLMl to learn about the domain, RAG leverages external data sources, keeping the model manageable best and adaptable.
+**Memory Efficiency**: Instead of having to fine-tune the LLMl to learn about the domain, RAG leverages external data sources, keeping the model manageable best and exchangable.
 
 ### Examples in an SAP Context
 
-The reference architecture illustrates a (multi-tenant) application developed by a potential SAP partner or customer, tailored for SAP Business Technology Platform (SAP BTP). This scenario presents a (SaaS) solution for enhancing customer support within a travel agency, utilizing advanced email insights and automation. The system analyzes incoming emails using Large Language Models (LLMs) to offer core insights such as categorization, sentiment analysis and urgency assessment. It goes beyond basic analysis by extracting key facts and customizable fields like location, managed through a dedicated configuration page.
+The reference architecture illustrates a (multitenant) application developed by a potential SAP partner or customer, tailored for SAP Business Technology Platform (SAP BTP). This scenario presents a (SaaS) solution for enhancing customer support within a travel agency, utilizing advanced email insights and automation. The system analyzes incoming emails using Large Language Models (LLMs) to offer core insights such as categorization, sentiment analysis and urgency assessment. It goes beyond basic analysis by extracting key facts and customizable fields like location, managed through a dedicated configuration page.
 
 In this use case, the RAG feature involves utilizing email embeddings to identify similar historical emails, aiding in understanding how similar requests were handled previously. This fosters consistent and efficient customer service. The code also demonstrates the capabilities of summarizing and translating both email subject and body, enabling streamlined comprehension across languages.
 
