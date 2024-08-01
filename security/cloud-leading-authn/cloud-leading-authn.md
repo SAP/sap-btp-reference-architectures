@@ -1,23 +1,24 @@
 <!-- dc-ref-arch-metadata : 
     {
         "id": "ref-arch-cloud-leading-authentication",
-        "name": "Cloud leading Authentication",
+        "name": "Cloud leading authentication",
         "shortDescription": "This reference architecture describes the authentication flows for SAP applications via the SAP Cloud Identity Services - Identity Authentication.",
-        "archDiagramLink": "images/SAP_IAM_SD_AuthN_2024.png",
+        "archDiagramLink": "images/Cloud-leading-Authentication_diagram.png",
+    "archDownloadResources" : [
+        {
+            "type": "drawio",
+            "link": "architectures/Cloud-leading-Authentication.drawio"
+        }
+    ],
         "tags": "Integration , sap integration , identity, identity access management, iam, IAM, BTP IAM, user management, user, access, authorization, Cloud Identity, SAP Cloud Identity, IAS, IPS, IDDS, IdDS, AMS, authorization management",
         "category": "Security"
     }
 dc-ref-arch-metadata  -->
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="./images/SAP_IAM_SD_AuthN_2024.png">
- <source media="(prefers-color-scheme: light)" srcset="./images/SAP_IAM_SD_AuthN_2024.png">
- <img alt="Cloud driven AuthN" src="./images/SAP_IAM_SD_AuthN_2024.png">
-</picture>
+
 <!-- dc-ref-arch-detail-page-start -->
+## **Cloud leading authentication**
 
-## **Cloud leading Authentication**
-
-The main (nonhuman) interacting actors in the model are identity providers, service providers, and the IAM services supported by SAP BTP. As shown in the figure Identity providers are systems that assert user information to service provider systems, vouching for the identity of the users who require access to their services. For this purpose, the identity provider issues a security token that can be accepted as an alternative that eliminates having to authenticate a user repeatedly. Service providers are systems that offer the business and technical services that users require to do their work. 
+The main (non-human) interacting actors in the model are identity providers, service providers, and the IAM services supported by SAP BTP. As shown in the figure Identity providers are systems that assert user information to service provider systems, vouching for the identity of the users who require access to their services. For this purpose, the identity provider issues a security token that can be accepted as an alternative that eliminates having to authenticate a user repeatedly. Service providers are systems that offer the business and technical services that users require to do their work. 
 
 Finally, the SAP Cloud Identity Services can act as identity provider, capable of performing authentication or as a broker forwarding the requests to third-party providers. 
 In the scenario in the figure the SAP Cloud Identity Services redirect the incoming authentication request to a configured Identity Provider and act as broker. This scenario is very common for employee scenarios if the company uses one central IdP across several vendors. This scenario also works in combination with new applications which use the Identity Directory within the SAP Cloud Identity Services to store the identities and their assignments. SAP Cloud Identity Services can verify against the Identity Directory if and how the authentication flow should be federated to an external Identity Provider or which attributes would be merged into the authentication tokens which are only relevant for the SAP landscape.
@@ -85,9 +86,11 @@ This setup has the following characteristics:
 ### Resources
 <!-- dc-ref-arch-resources-start -->
 - [SAP Cloud Identity Services - Identity Directory](https://api.sap.com/api/IdDS_SCIM/overview)
-- [SAP Cloud Identity Services - Authorization Management](https://help.sap.com/docs/identity-authentication/identity-authentication/configuring-authorization-policies?version=Cloud)
-- [SAP Cloud Identity Services](https://help.sap.com/docs/cloud-identity?version=Cloud&locale=en-US)
-- [SAP Secure Login Service for SAP GUI](https://help.sap.com/sls)
+  
+- SAP Help Portal:
+    - [SAP Cloud Identity Services - Authorization Management](https://help.sap.com/docs/identity-authentication/identity-authentication/configuring-authorization-policies?version=Cloud)
+    - [SAP Cloud Identity Services](https://help.sap.com/docs/cloud-identity?version=Cloud&locale=en-US)
+    - [SAP Secure Login Service for SAP GUI](https://help.sap.com/sls)
 <!-- dc-ref-arch-resources-end -->
 
 ### Related Missions

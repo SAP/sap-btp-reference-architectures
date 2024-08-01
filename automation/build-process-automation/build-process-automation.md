@@ -3,7 +3,14 @@
         "id": "ref-arch-build-process-automation",
         "name": "Integrate and extend SAP and non-SAP solutions with SAP Build Process Automation",
         "shortDescription": "Automate business processes across cloud and on-premise solutions using workflow and robotic process automation capabilities.",
-        "archDiagramLink": "images/SAP_Build_Process_Automation.png",
+        "archDiagramLink": "images/Integrate-and-extend-SAP-and-non-SAP-solutions-with-SAP-Build-Process-Automation_diagram.png",
+    "archDownloadResources" : [
+        {
+            "type": "drawio",
+            "link": "architectures/Integrate-and-extend-SAP-and-non-SAP-solutions-with-SAP-Build-Process-Automation.drawio"
+        }
+    ],
+
         "tags": "automation, enterprise automation, workflow, rpa, lcnc, low-code no-code, integration, cloud, on-premise, isa-m",
         "category": "Application Development, Automation"
     }
@@ -56,7 +63,7 @@ The SAP Build Process Automation architecture diagram highlights five key flows 
 
 SAP Build Process Automation is used in various use cases across all Lines of Businesses and all industries:
 
-1. Mass maintenance of a scheduling agreements
+- Mass maintenance of a scheduling agreements
 
     In this use case business experts are enabled to accelerate the automation of creation and change of scheduling agreements in a transparent way and provides feasibility to meet business requirements. The use case includes approval decisions, automation of master data content.
 
@@ -64,7 +71,7 @@ SAP Build Process Automation is used in various use cases across all Lines of Bu
 
     Based on selection criteria, the process is triggered in SAP Build Process Automation and a scheduling agreement is created or changed (depending on the choice of operation) for all valid scheduling agreements
 
-2. Non-repairable part auto recording with goods movement
+- Non-repairable part auto recording with goods movement
 
     In this use case business experts are enabled to accelerate recording of non-repairable equipment or spare parts and post goods movement of spare part to a non-repairable storage location in a transparent approach and provides feasibility to meet business requirements. It also includes approval decisions.
 
@@ -72,13 +79,13 @@ SAP Build Process Automation is used in various use cases across all Lines of Bu
 
     Based on selection criteria, the process is triggered in SAP Build Process Automation and system status is changed for equipment and it is marked as deactivated, or a goods movement is posted for spare part to a non-repairable storage location in SAP S/4HANA system.    
 
-3. Creation and approval of mass job requisition
+- Creation and approval of mass job requisition
 
     This use case streamlines and automates the process of creating and approving job requisition for the open positions with multiple vacancies that are existing in position organization chart within the SAP SuccessFactors Employee Central (EC).
 
     It does so by extracting the necessary data from a source file with position data, often an excel document, and utilizing relevant APIs to create and approve the requisition. Upon successful completion of the process the job requisition is in the 'Open' status. These requisitions can be published to internal and external job sites, making it available for candidates to view and apply for the respective job positions. This end-to-end process not only reduces manual data entry and processing but also enhances the speed and efficiency of job requisition creation and approval within the organization's hiring workflow.   
 
-4. Create customer material info records
+- Create customer material info records
 
     The business requires a solution to reduce the manual effort by the internal sales representative for creation of customer material info record in SAP S/4HANA system.
 
@@ -91,23 +98,23 @@ SAP Build Process Automation is used in various use cases across all Lines of Bu
 
 <!-- dc-ref-arch-services-start -->
 - [SAP Business Application Studio](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio?region=all)
-- [SAP Connectivity Service](https://discovery-center.cloud.sap/serviceCatalog/connectivity-service?region=all)
-- [Destination](https://discovery-center.cloud.sap/serviceCatalog/destination?region=all)
+- [SAP Connectivity service](https://discovery-center.cloud.sap/serviceCatalog/connectivity-service?region=all)
+- [SAP Destination service](https://discovery-center.cloud.sap/serviceCatalog/destination?region=all)
 - [SAP Document Management service, integration option](https://discovery-center.cloud.sap/serviceCatalog/document-management-service-integration-option?region=all)
 - [SAP Cloud Identity Services](https://discovery-center.cloud.sap/serviceCatalog/identity-authentication?region=all)
 - [SAP Integration Suite](https://discovery-center.cloud.sap/serviceCatalog/integration-suite?region=all)
 - [SAP Build Apps](https://discovery-center.cloud.sap/serviceCatalog/sap-build-apps?region=all)
-- [SAP Build Process Automation](https://discovery-center.cloud.sap/serviceCatalog/sap-build-process-automation?region=all)
+- [SAP Build Process Automation](https://discovery-center.cloud.sap/serviceCatalog/sap-build-process-automation?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
 - [SAP Build Work Zone](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-advanced-edition?region=all)
 <!-- dc-ref-arch-services-end -->
 
 ### Resources
 
 <!-- dc-ref-arch-resources-start -->
-- [SAP Community blog posts](https://community.sap.com/t5/c-khhcw49343/SAP+Build+Process+Automation/pd-p/73554900100800003832)
-- [SAP product documentation](https://help.sap.com/viewer/product/PROCESS_AUTOMATION/Cloud)
-- [SAP Tutorials](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build%2Fsap-build-process-automation)
-- [SAP Learning Journeys](https://learning.sap.com/learning-journeys?page=1&query=sap+build+process+automation)
+- [SAP Build Process Automation (SAP Community Blog Posts)](https://community.sap.com/t5/c-khhcw49343/SAP+Build+Process+Automation/pd-p/73554900100800003832)
+- [SAP Build Process Automation (SAP Help Portal)](https://help.sap.com/viewer/product/PROCESS_AUTOMATION/Cloud)
+- [SAP Build Process Automation (SAP Tutorials)](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build%2Fsap-build-process-automation)
+- [SAP Build Process Automation (SAP Learning Journeys)](https://learning.sap.com/learning-journeys?page=1&query=sap+build+process+automation)
 <!-- dc-ref-arch-resources-end -->
 
 ### Related Missions

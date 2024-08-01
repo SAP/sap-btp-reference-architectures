@@ -3,14 +3,21 @@
         "id": "ref-arch-sap-build-work-zone",
         "name": "Establish a central entry point with SAP Build Work Zone",
         "shortDescription": "SAP Build Work Zone enables you to easily build business sites that provide centralized access to business application information on any device.",
-        "archDiagramLink": "images/build-work-zone.png",
+        "archDiagramLink": "images/Establish-a-central-entry-point-with-SAP-Build-Work-Zone_diagram.png",
+    "archDownloadResources" : [
+        {
+            "type": "drawio",
+            "link": "architectures/Establish-a-central-entry-point-with-SAP-Build-Work-Zone.drawio"
+        }
+    ],
+
         "tags": "SAP Build Work Zone, business site, content federation, content channel, digital workplace, launchpad, work zone, SAP Mobile Start, ISA-M",
         "category": "Application Development,Integration"
     }
 dc-ref-arch-metadata  -->
 
 <!-- dc-ref-arch-detail-page-start -->
-## **Central Entry Point with SAP Build Work Zone**
+## **Establish a central entry point with SAP Build Work Zone**
 
 SAP Build Work Zone offers a comprehensive solution architecture designed to elevate user productivity and engagement by providing a digital workplace platform that supports single-sign-on. This innovative approach centralizes access to essential business applications, processes, information, and communication, serving as a unified entry point accessible from desktop or mobile devices. It harmonizes business content, applications, workflows, and processes across your landscape, ensuring a seamless integration and interaction within your digital ecosystem.
 
@@ -67,21 +74,21 @@ The SAP Build Work Zone architecture diagram highlights seven key flows when wor
 
 SAP Build Work Zone has been instrumental in transforming digital workplace experiences across various industries.
 
-1. **Enhancing employee engagement and productivity**: Organizations have utilized SAP Build Work Zone to improve the digital experiences of frontline workers, leading to increased employee satisfaction and reduced turnover. This scenario underscores the importance of a user-friendly digital workplace in boosting overall workforce engagement and productivity.
+- **Enhancing employee engagement and productivity**: Organizations have utilized SAP Build Work Zone to improve the digital experiences of frontline workers, leading to increased employee satisfaction and reduced turnover. This scenario underscores the importance of a user-friendly digital workplace in boosting overall workforce engagement and productivity.
 
-2. **Internal adoption and empowerment**: By adopting SAP Build Work Zone internally, companies demonstrate the platform's effectiveness in streamlining operations and improving productivity. This use case highlights the platform's ability to empower employees with a fully digital, user-centric workplace experience, facilitating better internal communication and efficiency.
+- **Internal adoption and empowerment**: By adopting SAP Build Work Zone internally, companies demonstrate the platform's effectiveness in streamlining operations and improving productivity. This use case highlights the platform's ability to empower employees with a fully digital, user-centric workplace experience, facilitating better internal communication and efficiency.
 
-3. **Sector-specific workflows optimization**: Particularly notable in the finance sector, SAP Build Work Zone has enabled the creation of integrated and personalized workspaces. These workspaces improve engagement and productivity by catering to specific departmental needs, demonstrating the platform's versatility in enhancing department-specific workflows through personalized digital experiences.
+- **Sector-specific workflows optimization**: Particularly notable in the finance sector, SAP Build Work Zone has enabled the creation of integrated and personalized workspaces. These workspaces improve engagement and productivity by catering to specific departmental needs, demonstrating the platform's versatility in enhancing department-specific workflows through personalized digital experiences.
 
-4. **Streamlining vendor and partner interactions**: Organizations have leveraged SAP Build Work Zone to manage high volumes of vendor interactions and to create extensive workspaces for internal and external collaborations. This scenario illustrates the platform's capability to simplify and enhance the efficiency of vendor management and partner collaboration processes, thereby freeing staff from manual tasks and fostering a more collaborative working environment.
+- **Streamlining vendor and partner interactions**: Organizations have leveraged SAP Build Work Zone to manage high volumes of vendor interactions and to create extensive workspaces for internal and external collaborations. This scenario illustrates the platform's capability to simplify and enhance the efficiency of vendor management and partner collaboration processes, thereby freeing staff from manual tasks and fostering a more collaborative working environment.
 
 These use cases showcase the broad applicability and impact of SAP Build Work Zone across different organizational needs, from improving employee engagement to optimizing specific workflows and enhancing collaboration with vendors and partners.  
 <!-- dc-ref-arch-detail-page-end -->
 
 ### Services and Components
 <!-- dc-ref-arch-services-start -->
-- [SAP Build Work Zone Advanced Edition](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-advanced-edition?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
-- [SAP Build Work Zone Standard Edition](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-standard-edition?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
+- [SAP Build Work Zone, advanced edition](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-advanced-edition?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
+- [SAP Build Work Zone, standard edition](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-standard-edition?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
 - [SAP Build Apps](https://discovery-center.cloud.sap/serviceCatalog/sap-build-apps?region=all)
 - [SAP Build Process Automation](https://discovery-center.cloud.sap/serviceCatalog/sap-build-process-automation?region=all)
 - [SAP Business Application Studio](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio?region=all)
@@ -91,16 +98,14 @@ These use cases showcase the broad applicability and impact of SAP Build Work Zo
 - [SAP Mobile Services](https://discovery-center.cloud.sap/serviceCatalog/mobile-services?region=all)
 - [SAP Cloud Identity Authentication](https://discovery-center.cloud.sap/serviceCatalog/identity-authentication?region=all)
 - [SAP Cloud Identity Provisioning](https://discovery-center.cloud.sap/serviceCatalog/identity-provisioning?region=all)
-- [SAP Connectivity Service](https://discovery-center.cloud.sap/serviceCatalog/connectivity-service?region=all)
-- [Destination](https://discovery-center.cloud.sap/serviceCatalog/destination?region=all)
-- [SAP Custom Domain Service](https://discovery-center.cloud.sap/serviceCatalog/custom-domain?region=all)
+- [SAP Connectivity service](https://discovery-center.cloud.sap/serviceCatalog/connectivity-service?region=all)
+- [SAP Destination service](https://discovery-center.cloud.sap/serviceCatalog/destination?region=all)
+- [SAP Custom Domain service](https://discovery-center.cloud.sap/serviceCatalog/custom-domain?region=all)
 - [SAP Cloud Transport Management](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management?region=all)
 <!-- dc-ref-arch-services-end -->
 
 ### Resources
 <!-- dc-ref-arch-resources-start -->
-- SAP.com
-    - [SAP Build Work Zone (Digital Workplace Experience)](https://www.sap.com/products/technology-platform/workzone.html)
 
 - SAP Help Portal
     - [SAP Build Work Zone, standard edition (SAP Help Portal)](https://help.sap.com/docs/build-work-zone-standard-edition?locale=en-US)
@@ -110,7 +115,7 @@ These use cases showcase the broad applicability and impact of SAP Build Work Zo
     - [Compose and Automate with SAP Build the No-Code Way (SAP Learning)](https://learning.sap.com/learning-journeys/compose-and-automate-with-sap-build-the-no-code-way)
     - [Implementing and Administering SAP Build Work Zone (SAP Learning)](https://learning.sap.com/learning-journeys/implement-and-administer-sap-build-work-zone)
 
-- SAP Community
+- SAP Community Topic Pages
     - [SAP Build Work Zone (SAP Community)](https://pages.community.sap.com/topics/work-zone)
     - [SAP Build Work Zone FAQ (SAP Community)](https://pages.community.sap.com/topics/work-zone/faq)
 
