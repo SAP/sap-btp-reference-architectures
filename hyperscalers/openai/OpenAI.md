@@ -3,18 +3,23 @@
         "id": "ref-arch-open-ai",
         "name": "Retrieval Augmented Generation and Generative AI on SAP BTP",
         "shortDescription": "Implement Retrieval Augmented Generation (RAG) and Generative AI use cases on SAP BTP using SAP Cloud Application Programming Model (CAP), Generative AI Hub and SAP HANA Cloud's Vector Engine.",
-        "archDiagramLink": "images/displayed-architecture.png",
-        "tags": "Hyperscaler",
+        "archDiagramLink": "images/Retrieval-Augmented-Generation-and-Generative-AI-on-SAP-BTP-single_diagram.png",
+    "archDownloadResources" : [
+        {
+            "type": "drawio",
+            "link": "architectures/Retrieval-Augmented-Generation-and-Generative-AI-on-SAP-BTP.drawio"
+        }
+    ],
+        "tags": "artificial Intelligence, Hyperscaler",
         "category": "Hyperscaler"
     }
 dc-ref-arch-metadata  -->
 <!-- dc-ref-arch-detail-page-start -->
-
 ## **CAP-based (multitenant SaaS) architecture using Retrieval Augmented Generation (RAG)**
 
 RAG, which stands for Retrieval Augmented Generation, is a neural architecture that combines the strengths of Foundation Models (FMs) or Large anguage Models (LLMs) with external retrieval or search mechanisms. The main goal of the RAG architecture is to improve the capability of LLMs by allowing them to pull relevant information from a vast corpus, much like how search engines retrieve relevant web pages based on queries. RAG is used for various tasks such as question answering (Q&A) and knowledge-intensive Natural Language Processing (NLP) tasks. The architecture represents an interesting fusion of retrieval-based and generation-based approaches to NLP.
 
-In this reference architecture pattern ([multitenant](https://discovery-center.cloud.sap/githubrefarch/SAP/sap-btp-reference-architectures/main/hyperscalers/openai/images/multitenant-architecture.png), [single tenant](https://discovery-center.cloud.sap/githubrefarch/SAP/sap-btp-reference-architectures/main/hyperscalers/openai/images/singletenant-architecture.png)), how to seamlessly combine various Large Language Models (LLMs) using the [Generative AI Hub](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core) in SAP AI Core. Maximize the potential of LangChain, [CAP LLM Plugin](https://www.npmjs.com/package/cap-llm-plugin) and other SDKs and plugins in [Cloud Application Programming model (CAP)](https://cap.cloud.sap/docs/) and implement advanced methods such as Retrieval Augmented Generation (RAG) with embeddings and a [SAP HANA Cloud's Vector Engine](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-vector-engine-guide/sap-hana-cloud-sap-hana-database-vector-engine-guide) to further enhance the benefits for your specific needs. This reference architecture accommodates both Cloud Foundry and Kyma runtimes, providing adaptability in your endeavor to leverage GenAI on SAP BTP.
+In this reference architecture pattern ([multitenant](https://discovery-center.cloud.sap/githubrefarch/SAP/sap-btp-reference-architectures/main/hyperscalers/openai/images/[SAP-official]_Retrieval-Augmented-Generation-and-Generative-AI-on-SAP-BTP-multi_diagram.png), [single tenant](https://discovery-center.cloud.sap/githubrefarch/SAP/sap-btp-reference-architectures/main/hyperscalers/openai/images/[SAP-official]_[SAP-official]_Retrieval-Augmented-Generation-and-Generative-AI-on-SAP-BTP-single_diagram.png), how to seamlessly combine various Large Language Models (LLMs) using the [Generative AI Hub](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core) in SAP AI Core. Maximize the potential of LangChain, [CAP LLM Plugin](https://www.npmjs.com/package/cap-llm-plugin) and other SDKs and plugins in [Cloud Application Programming model (CAP)](https://cap.cloud.sap/docs/) and implement advanced methods such as Retrieval Augmented Generation (RAG) with embeddings and a [SAP HANA Cloud's Vector Engine](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-vector-engine-guide/sap-hana-cloud-sap-hana-database-vector-engine-guide) to further enhance the benefits for your specific needs. This reference architecture accommodates both Cloud Foundry and Kyma runtimes, providing adaptability in your endeavor to leverage GenAI on SAP BTP.
 
 Please review [Models and Scenarios in the Generative AI Hub](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub) and [Availability of Generative AI Models](https://me.sap.com/notes/3437766) for a full list and overview of available Models.
 
@@ -32,11 +37,11 @@ Here is a high-level flow of how Retrieval Augmented Generation works:
 
 Key characteristics of RAG architecture includes:
 
-**Increased Knowledge**: Even if the base LLM has not been trained on certain information, as long as that information exists in the corpus used for retrieval, RAG can still provide relevant answers and reduce hallucinations.
+- **Increased Knowledge**: Even if the base LLM has not been trained on certain information, as long as that information exists in the corpus used for retrieval, RAG can still provide relevant answers and reduce hallucinations.
 
-**Flexibility**: By changing the underlying corpus, RAG can be adapted to different domains or knowledge bases.
+-  **Flexibility**: By changing the underlying corpus, RAG can be adapted to different domains or knowledge bases.
 
-**Memory Efficiency**: Instead of having to fine-tune the LLMl to learn about the domain, RAG leverages external data sources, keeping the model manageable best and exchangable.
+- **Memory Efficiency**: Instead of having to fine-tune the LLMl to learn about the domain, RAG leverages external data sources, keeping the model manageable best and exchangable.
 
 ### Examples in an SAP Context
 
@@ -60,7 +65,7 @@ Furthermore, the system takes automation to the next level by generating potenti
 
 - [SAP BTP, Cloud Foundry Runtime](https://discovery-center.cloud.sap/serviceCatalog/cloud-foundry-runtime?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->: The SAP BTP, Cloud Foundry runtime lets you develop polyglot cloud-native applications and run them on the SAP BTP Cloud Foundry environment.
 
-- [Destination](https://discovery-center.cloud.sap/serviceCatalog/destination?service_plan=lite&region=all&commercialModel=cloud) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->: The Destination service lets you retrieve the backend destination details you need to configure applications in the Cloud Foundry environment.
+- [SAP Destination service](https://discovery-center.cloud.sap/serviceCatalog/destination?service_plan=lite&region=all&commercialModel=cloud) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->: The Destination service lets you retrieve the backend destination details you need to configure applications in the Cloud Foundry environment.
 
 - [SAP HTML5 Application Repository Service for SAP BTP](https://discovery-center.cloud.sap/serviceCatalog/html5-application-repository-service?region=all): The HTML5 Application Repository service for SAP BTP enables central storage of HTML5 applications on SAP BTP. The service allows application developers to manage the lifecycle of their HTML5 applications. In runtime, the service enables the consuming application, typically the application router, to access HTML5 application static content in a secure and efficient manner.
 
@@ -70,7 +75,7 @@ Furthermore, the system takes automation to the next level by generating potenti
 
 - [SAP Business Application Studio](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio?region=all): SAP Business Application Studio (the next generation of SAP Web IDE) is a powerful and modern development environment, tailored for efficient development of business applications for the Intelligent Enterprise. Available as a cloud service, it provides developers a desktop-like experience similar to market leading IDEs, while accelerating time-to-market with high-productivity development tools such as wizards and templates, graphical editors, quick deployment, and more.
 
-- [SAP Continuous Integration and Delivery](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all): SAP Continuous Integration and Delivery lets you configure and run predefined continuous integration and delivery (CI/CD) pipelines that automatically build, test, and deploy your code changes to speed up your development and delivery cycles.
+- [SAP Continuous Integration and Delivery service](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all): SAP Continuous Integration and Delivery lets you configure and run predefined continuous integration and delivery (CI/CD) pipelines that automatically build, test, and deploy your code changes to speed up your development and delivery cycles.
 
 - [SAP Application Logging Service for SAP BTP](https://discovery-center.cloud.sap/serviceCatalog/application-logging-service?region=all): The SAP Application Logging service for SAP BTP lets you stream logs of bound Cloud Foundry applications to a central application logging stack. SAP Application Logging service for SAP BTP uses Elastic Stack to store and visualize your application log data.
 
@@ -86,12 +91,12 @@ Furthermore, the system takes automation to the next level by generating potenti
 
 For more information about the different technologies used as part of this reference architecture you may check out the following resources:
 
-- Generative AI Hub in SAP AI Core Overview [Generative AI Hub in SAP AI Core Overview](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core)
-- Documentation OpenAI [Generative AI Hub in SAP AI Core](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub)
-- Blog post [SAP BTP Use Cases Kick-Start Transformation with Pre-Built Business Content](https://news.sap.com/2023/05/sap-btp-use-cases-art-of-the-possible/)
-- GitHub [Reference Application: GenAI Mail Insights](https://github.com/SAP-samples/btp-cap-genai-rag)
-- SAP BTP genAI starter kit [SAP BTP genAI starter kit](https://github.com/SAP-samples/btp-genai-starter-kit)
-- CAP LLM Plugin [CAP LLM Plugin](https://www.npmjs.com/package/cap-llm-plugin)
+- [Generative AI Hub in SAP AI Core Overview (SAP Help Portal)](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core)
+- [Models and scenarios in the Generative AI Hub (SAP Help Portal)](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub)
+- [SAP BTP Use Cases Kick-Start Transformation with Pre-Built Business Content (SAP Community blog post)](https://news.sap.com/2023/05/sap-btp-use-cases-art-of-the-possible/)
+- [Reference Application: GenAI Mail Insights (GitHub)](https://github.com/SAP-samples/btp-cap-genai-rag)
+- [SAP BTP genAI starter kit](https://github.com/SAP-samples/btp-genai-starter-kit)
+- [CAP LLM Plugin](https://www.npmjs.com/package/cap-llm-plugin)
 
 <!-- dc-ref-arch-resources-end -->
 

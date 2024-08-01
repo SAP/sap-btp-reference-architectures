@@ -3,13 +3,20 @@
         "id": "ref-arch-sap-task-center",
         "name": "Establish a central inbox with SAP Task Center",
         "shortDescription": "SAP Task Center helps you integrate tasks into a central solution.",
-        "archDiagramLink": "images/task-center.png",
+        "archDiagramLink": "images/Establish-a-central-inbox-with-SAP-Task-Center_diagram.png",
+    "archDownloadResources" : [
+        {
+            "type": "drawio",
+            "link": "architectures/Establish-a-central-inbox-with-SAP-Task-Center.drawio"
+        }
+    ],
+
         "tags": "SAP Task Center, integration, task providers, one workflow inbox, task federation, ISA-M",
         "category": "Automation,Integration"
     }
 dc-ref-arch-metadata  -->
 <!-- dc-ref-arch-detail-page-start -->
-## **Central Inbox with SAP Task Center**
+## **Establish a central inbox with SAP Task Center**
 
 SAP Task Center enables integration with SAP applications to provide a single entry point for end users to access all their assigned tasks. The tasks can be accessed by end users through the SAP Task Center UI clients.
 
@@ -80,16 +87,15 @@ SAP offers various SAP cloud and on premise solutions, which offer separate inbo
 - [SAP Task Center](https://discovery-center.cloud.sap/serviceCatalog/sap-task-center?region=all) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->
 - [SAP Cloud Identity Authentication](https://discovery-center.cloud.sap/serviceCatalog/identity-authentication?region=all)
 - [SAP Cloud Identity Provisioning](https://discovery-center.cloud.sap/serviceCatalog/identity-provisioning?region=all)
-- [SAP Connectivity Service](https://discovery-center.cloud.sap/serviceCatalog/connectivity-service?region=all)
-- [Destination](https://discovery-center.cloud.sap/serviceCatalog/destination?region=all)
+- [SAP Connectivity service](https://discovery-center.cloud.sap/serviceCatalog/connectivity-service?region=all)
+- [SAP Destination service](https://discovery-center.cloud.sap/serviceCatalog/destination?region=all)
 <!-- dc-ref-arch-services-end -->
 
 ### Resources
 <!-- dc-ref-arch-resources-start -->
-- [Help Portal](https://help.sap.com/docs/task-center)
-- [Guided Answers](https://ga.support.sap.com/dtp/viewer/index.html#/tree/3109/actions/47627)
-- [SAP Community Blog Posts](https://community.sap.com/t5/tag/SAP%20Task%20Center/tg-p)
-- [SAP Community Topic Page](https://pages.community.sap.com/topics/task-center)
+- [SAP Task Center (SAP Help Portal)](https://help.sap.com/docs/task-center)
+- [SAP Task Center (Guided Answers)](https://ga.support.sap.com/dtp/viewer/index.html#/tree/3109/actions/47627)
+- [SAP Task Center (SAP Community Topic Page)](https://pages.community.sap.com/topics/task-center)
 
 <!-- dc-ref-arch-resources-end -->
 

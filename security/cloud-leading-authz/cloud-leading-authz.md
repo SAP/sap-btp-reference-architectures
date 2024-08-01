@@ -1,21 +1,22 @@
 <!-- dc-ref-arch-metadata : 
     {
         "id": "ref-arch-cloud-leading-identity-lifecycle-authorizations",
-        "name": "Cloud leading Identity Lifecycle Authorizations",
+        "name": "Cloud leading identity lifecycle authorizations",
         "shortDescription": "This reference architecture describes how the different authorization technologies within the SAP portfolio can be used from a central point for the Identity Lifecycle.",
-        "archDiagramLink": "images/SAP_IAM_SD_AuthZ_2024.png",
+        "archDiagramLink": "images/Cloud-leading-Identity-Lifecycle-Authorizations_diagram.png",
+    "archDownloadResources" : [
+        {
+            "type": "drawio",
+            "link": "architectures/Cloud-leading-Identity-Lifecycle-Authorizations.drawio"
+        }
+    ],
         "tags": "Integration , sap integration , identity, identity access management, iam, IAM, BTP IAM, user management, user, access, authorization, Cloud Identity, SAP Cloud Identity, IAS, IPS, IDDS, IdDS, AMS, authorization management",
         "category": "Security"
     }
 dc-ref-arch-metadata  -->
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="./images/SAP_IAM_SD_AuthZ_2024.png">
- <source media="(prefers-color-scheme: light)" srcset="./images/SAP_IAM_SD_AuthZ_2024.png">
- <img alt="Cloud driven AuthN" src="./images/SAP_IAM_SD_AuthZ_2024.png">
-</picture>
 <!-- dc-ref-arch-detail-page-start -->
 
-## **Cloud driven Identity Lifecycle Authorizations**
+## **Cloud driven identity lifecycle authorizations**
 
 Authorizations are domain specific and still the aim is that they can be assigned to an identity centrally. 
 Traditionally authorizations are defined in the application and are not centrally managed. This leads to a huge effort to maintain the authorizations and to ensure that the least-privilege-methodology is applied across different stacks and solutions.
@@ -72,12 +73,15 @@ This setup has the following characteristics:
 ### Resources
 <!-- dc-ref-arch-resources-start -->
 - [SAP Cloud Identity Services - Identity Directory](https://api.sap.com/api/IdDS_SCIM/overview)
-- [SAP Cloud Identity Services - Authorization Management](https://help.sap.com/docs/identity-authentication/identity-authentication/configuring-authorization-policies?version=Cloud)
-- [SAP Cloud Identity Services](https://help.sap.com/docs/cloud-identity?version=Cloud&locale=en-US)
-- [More details about the SAP Identity Management End-of-Maintenance](https://community.sap.com/t5/technology-blogs-by-sap/preparing-for-sap-identity-management-s-end-of-maintenance-in-2027/ba-p/13596101)
+
+- SAP Help Portal:
+    - [SAP Cloud Identity Services - Authorization Management](https://help.sap.com/docs/identity-authentication/identity-authentication/configuring-authorization-policies?version=Cloud)
+    - [SAP Cloud Identity Services](https://help.sap.com/docs/cloud-identity?version=Cloud&locale=en-US)
+      
+- [More details about the SAP Identity Management End-of-Maintenance (SAP Community blog posts)](https://community.sap.com/t5/technology-blogs-by-sap/preparing-for-sap-identity-management-s-end-of-maintenance-in-2027/ba-p/13596101)
 - [SAP Cloud Application Programming Model (CAP)](https://cap.cloud.sap/docs/get-started/in-a-nutshell)
-- [SCIM2 protocol](https://www.rfc-editor.org/rfc/rfc7644))
-- [SCIM2 schemas](https://www.rfc-editor.org/rfc/rfc7643))
+- [SCIM2 protocol](https://www.rfc-editor.org/rfc/rfc7644)
+- [SCIM2 schemas](https://www.rfc-editor.org/rfc/rfc7643)
 <!-- dc-ref-arch-resources-end -->
 
 ### Related Missions

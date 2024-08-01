@@ -3,7 +3,14 @@
         "id": "ref-arch-cloud-leading-identity-lifecycle",
         "name": "Cloud leading Identity Lifecycle",
         "shortDescription": "This reference architecture describes the identity lifecycle flows for SAP applications via the SAP Cloud Identity Services.",
-        "archDiagramLink": "images/SAP_IAM_SD_W2I_2024.png",
+        "archDiagramLink": "images/Cloud-leading-Identity-Lifecycle_diagram.png",
+    "archDownloadResources" : [
+        {
+            "type": "drawio",
+            "link": "architectures/Cloud-leading-Identity-Lifecycle.drawio"
+        }
+    ],
+
         "tags": "Integration , sap integration , identity, identity access management, iam, IAM, BTP IAM, user management, user, access, authorization, Cloud Identity, SAP Cloud Identity, IAS, IPS, IDDS, IdDS, AMS, authorization management",
         "category": "Security"
     }

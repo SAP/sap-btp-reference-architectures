@@ -1,21 +1,29 @@
 <!-- dc-ref-arch-metadata : 
     {
         "id": "ref-arch-AWS-Azure-CAP-PLS",
-        "name": "Secure Connectivity with SAP Private Link service",
+        "name": "Secure connectivity with SAP Private Link service",
         "shortDescription": "The reference architecture demonstrates how SAP Private Link service can be used to securely communicate with an SAP S/4HANA system deployed in a customer-managed Microsoft Azure or AWS account from SAP BTP, Cloud Foundry environment.",
-        "archDiagramLink": "images/generic-privatelink.png",
-        "tags": "Hyperscaler",
-        "category": "Hyperscaler"
+        "archDiagramLink": "images/Secure-Connectivity-with-SAP-Private-Link-service-diagram.png",
+    "archDownloadResources" : [
+        {
+            "type": "drawio",
+            "link": "architectures/Secure-Connectivity-with-SAP-Private-Link-service.drawio"
+        }
+    ],
+
+        "tags": "Hyperscaler, Integration",
+        "category": "Hyperscaler, Integration"
     }
 dc-ref-arch-metadata  -->
+
 <!-- dc-ref-arch-detail-page-start -->
-## **Secure Connectivity with SAP Private Link service**
+## **Secure connectivity with SAP Private Link service**
 
-Private Link Service is a feature offered by cloud providers like Microsoft Azure and Amazon Web Services (AWS) that allows customers to expose their services in their virtual networks to consumers in other virtual networks or subscriptions. The primary goal of Private Link Service is to ensure that data offered by service providers is only accessible through a private endpoint, which ensures that the data doesn't traverse over the public internet.
+SAP Private Link service is a feature offered by cloud providers like Microsoft Azure and Amazon Web Services (AWS) that allows customers to expose their services in their virtual networks to consumers in other virtual networks or subscriptions. The primary goal of Private Link service is to ensure that data offered by service providers is only accessible through a private endpoint, which ensures that the data doesn't traverse over the public internet.
 
-SAP Private Link Service service allows to securely connect applications running on SAP BTP to workloads running on hyperscalers. This ensures that traffic is not routed through the public internet but stays within the hyperscaler infrastructure. This helps to minimize attack vectors and ensures secure communication between SAP BTP and hyperscaler workload. To use Private Link Service, service providers would set up a standard Load Balancer in front of their service in Azure and then enable Private Link Service on one or more standard public IP addresses. Consumers, on the other hand, would create a private endpoint in their virtual network and connect it to the service provider's service.
+SAP Private Link service allows to securely connect applications running on SAP BTP to workloads running on hyperscalers. This ensures that traffic is not routed through the public internet but stays within the hyperscaler infrastructure. This helps to minimize attack vectors and ensures secure communication between SAP BTP and hyperscaler workload. To use sAP Private Link service, service providers would set up a standard Load Balancer in front of their service in Azure and then enable sAP Private Link service on one or more standard public IP addresses. Consumers, on the other hand, would create a private endpoint in their virtual network and connect it to the service provider's service.
 
-More details about [SAP Private Link Service ](https://help.sap.com/docs/PRIVATE_LINK?locale=en-US).
+More details about [SAP Private Link service ](https://help.sap.com/docs/PRIVATE_LINK?locale=en-US).
 
 ### Flow
 To establish the private connection, you first need create a service instance of the SAP Private Link service by providing the identifier of the IaaS provider service instance. After approving the creation of the private endpoint in your IaaS provider account, you bind the service instance to your application and can then start using the private endpoint.
@@ -51,29 +59,27 @@ The second use case is to use the service name of one of the supported services 
 
 The reference architecture for SAP S/4HANA extensibility using SAP Private Link service uses the following SAP BTP services:
 
-- [SAP Private Link Service](https://discovery-center.cloud.sap/serviceCatalog/private-link-service?service_plan=standard&region=all&commercialModel=cloud) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->: SAP Private Link service establishes a private connection between selected SAP BTP services and selected services in your own IaaS provider accounts. By reusing the private link functionality of our partner IaaS providers, it lets you access your services through private network connections to avoid data transfer via the public Internet.
+- [SAP Private Link service](https://discovery-center.cloud.sap/serviceCatalog/private-link-service?service_plan=standard&region=all&commercialModel=cloud) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->: SAP Private Link service establishes a private connection between selected SAP BTP services and selected services in your own IaaS provider accounts. By reusing the private link functionality of our partner IaaS providers, it lets you access your services through private network connections to avoid data transfer via the public Internet.
   
 - [SAP Business Application Studio](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio?region=all): SAP Business Application Studio (the next generation of SAP Web IDE) is a powerful and modern development environment, tailored for efficient development of business applications for the Intelligent Enterprise. Available as a cloud service, it provides developers a desktop-like experience similar to market leading IDEs, while accelerating time-to-market with high-productivity development tools such as wizards and templates, graphical editors, quick deployment, and more.
 
 - [SAP Event Mesh](https://discovery-center.cloud.sap/serviceCatalog/event-mesh?region=all): SAP Event Mesh allows applications to communicate through asynchronous events.
 
-- [SAP Build Work Zone, Standard Edition](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-standard-edition?region=all): SAP Build Work Zone, standard edition enables organizations to establish a unified point of access to SAP (e.g. SAP S/4HANA), custom-built, and third party applications and extensions, both on the cloud and on premise. 
+- [SAP Build Work Zone, standard edition](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-standard-edition?region=all): SAP Build Work Zone, standard edition enables organizations to establish a unified point of access to SAP (e.g. SAP S/4HANA), custom-built, and third party applications and extensions, both on the cloud and on premise. 
 
-- [SAP Continuous Integration and Delivery](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all): SAP Continuous Integration and Delivery lets you configure and run predefined continuous integration and delivery (CI/CD) pipelines that automatically build, test, and deploy your code changes to speed up your development and delivery cycles.
+- [SAP Continuous Integration and Delivery service](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all): SAP Continuous Integration and Delivery lets you configure and run predefined continuous integration and delivery (CI/CD) pipelines that automatically build, test, and deploy your code changes to speed up your development and delivery cycles.
 
 - [SAP Cloud Transport Management](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management?region=all): SAP Cloud Transport Management service lets you manage software deliverables between accounts of different environments (such as Cloud Foundry, ABAP, and Neo), by transporting them across various runtimes. This includes application artifacts as well as their respective application-specific content.
 
 - [SAP HANA Cloud](https://discovery-center.cloud.sap/serviceCatalog/sap-hana-cloud?region=all): SAP HANA Cloud is a database-as-a-service that powers mission-critical applications and real-time analytics with one solution at petabyte scale. Converge relational, graph, spatial, and document store and develop smart applications with embedded machine learning. Process mission-critical data at proven in-memory speed and manage it more efficiently with integrated multi-tier storage.
 
-- [SAP BTP, Cloud Foundry Runtime](https://discovery-center.cloud.sap/serviceCatalog/cloud-foundry-runtime?region=all): The SAP BTP, Cloud Foundry runtime lets you develop polyglot cloud-native applications and run them on the SAP BTP Cloud Foundry environment.
-
-- [Destination](https://discovery-center.cloud.sap/serviceCatalog/destination?service_plan=lite&region=all&commercialModel=cloud) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->: The Destination service lets you retrieve the backend destination details you need to configure applications in the Cloud Foundry environment.
+- [SAP Destination service](https://discovery-center.cloud.sap/serviceCatalog/destination?service_plan=lite&region=all&commercialModel=cloud) <!-- dc-svc-metadata: {"isPrimary": "true"} dc-svc-metadata -->: The Destination service lets you retrieve the backend destination details you need to configure applications in the Cloud Foundry environment.
 
 - [SAP HTML5 Application Repository Service for SAP BTP](https://discovery-center.cloud.sap/serviceCatalog/html5-application-repository-service?region=all): The HTML5 Application Repository service for SAP BTP enables central storage of HTML5 applications on SAP BTP. The service allows application developers to manage the lifecycle of their HTML5 applications. In runtime, the service enables the consuming application, typically the application router, to access HTML5 application static content in a secure and efficient manner.
 
 - [SAP Application Logging Service for SAP BTP](https://discovery-center.cloud.sap/serviceCatalog/application-logging-service?region=all): The SAP Application Logging service for SAP BTP lets you stream logs of bound Cloud Foundry applications to a central application logging stack. SAP Application Logging service for SAP BTP uses Elastic Stack to store and visualize your application log data.
 
-- [SAP Authorization and Trust Management Service](https://discovery-center.cloud.sap/serviceCatalog/authorization-and-trust-management-service?region=all): The SAP Authorization and Trust Management service lets you manage user authorizations and trust to identity providers. Identity providers are the user base for applications. We recommend that you use an IAS identity authentication tenant, an SAP on-premise system, or a custom corporate identity provider.
+- [SAP Authorization and Trust Management service](https://discovery-center.cloud.sap/serviceCatalog/authorization-and-trust-management-service?region=all): The SAP Authorization and Trust Management service lets you manage user authorizations and trust to identity providers. Identity providers are the user base for applications. We recommend that you use an IAS identity authentication tenant, an SAP on-premise system, or a custom corporate identity provider.
 
 - [Application Autoscaler](https://discovery-center.cloud.sap/serviceCatalog/application-autoscaler?service_plan=standard&region=all&commercialModel=cloud): Application Autoscaler lets you automatically increase or decrease the number of your application instances based on the policies you have defined.
 
@@ -83,21 +89,27 @@ The reference architecture for SAP S/4HANA extensibility using SAP Private Link 
 <!-- dc-ref-arch-resources-start -->
 For more information about the different technologies used as part of this reference architecture you may check out the following resources:
 
-- Documentation: [SAP Private Link Service](https://help.sap.com/docs/private-link)
-- Documentation: [Azure Private Link](https://azure.microsoft.com/en-us/products/private-link)
-- Documentation: [AWS PrivateLink](https://aws.amazon.com/privatelink/)
-- Blog post: [Extend your Business Processes with the new SAP Private Link service](https://blogs.sap.com/2022/06/03/extend-your-business-processes-with-the-new-sap-private-link-service/)
-- Blog post: [SAP Private Link in Action: How FrieslandCampina safeguards their integration flows with Azure Storage Account](https://blogs.sap.com/2023/04/07/sap-private-link-in-action-how-frieslandcampina-safeguards-their-integration-flows-with-azure-storage-account/)
-- Blog post: [SAP Private Link service use cases for SAP Cloud Integration and SAP Build Work Zone, Standard Edition](https://blogs.sap.com/2022/08/22/sap-private-link-service-use-cases-for-sap-cloud-integration-and-sap-launchpad/)
-- Blog post: [SAP Private linky swear with Azure – running Cloud Connector and SAP Private Link side-by-side](https://blogs.sap.com/2022/07/07/btp-private-linky-swear-with-azure-running-cloud-connector-and-sap-private-link-side-by-side/)
-- Blog post: [SAP Private Link service is integrated to SAP BTP, Kyma runtime](https://community.sap.com/t5/technology-blogs-by-sap/sap-private-link-service-is-integrated-to-sap-btp-kyma-runtime/ba-p/13614067)
-- GitHub: [Enhance core ERP business processes with resilient applications on SAP BTP](https://github.com/SAP-samples/btp-build-resilient-apps/blob/main/tutorials/05_setupconnectivity/privatelink.md)
-- GitHub: [SAP Private Link Service Use Cases for SAP Cloud Integration and SAP Build Work Zone, Standard Edition](https://github.com/SAP-samples/btp-private-link-approuter)
-- Tutorial: [Connect SAP Private Link Service to Microsoft Azure Private Link Service (CF)](https://developers.sap.com/mission.private-link-connect.html)
-- Tutorial: [Connect SAP Private Link Service to Microsoft Azure Private Link Service (Kyma)](https://developers.sap.com/tutorials/private-link-azure-kyma.html)
-- Tutorial: [Connect SAP Private Link Service to AWS Private Link Service (CF)](https://developers.sap.com/tutorials/private-link-aws.html)
-- Tutorial: [Connect SAP Private Link Service to AWS Private Link Service (Kyma)](https://developers.sap.com/tutorials/private-link-aws-kyma.html)
-
+- Documentation
+    - [SAP Private Link service](https://help.sap.com/docs/private-link)
+    - [Azure Private Link](https://azure.microsoft.com/en-us/products/private-link)
+    - [AwS Private Link](https://aws.amazon.com/privatelink/)
+      
+- SAP Community blog posts:
+    - [Extend your Business Processes with the new SAP Private Link service](https://blogs.sap.com/2022/06/03/extend-your-business-processes-with-the-new-sap-private-link-service/)
+    - [SAP Private Link in Action: How FrieslandCampina safeguards their integration flows with Azure Storage Account](https://blogs.sap.com/2023/04/07/sap-private-link-in-action-how-frieslandcampina-safeguards-their-integration-flows-with-azure-storage-account/)
+    - [SAP Private Link service use cases for SAP Cloud Integration and SAP Build Work Zone, standard edition (SAP community blog post)](https://blogs.sap.com/2022/08/22/sap-private-link-service-use-cases-for-sap-cloud-integration-and-sap-launchpad/)
+    - [SAP Private linky swear with Azure – running Cloud Connector and SAP Private Link side-by-side](https://blogs.sap.com/2022/07/07/btp-private-linky-swear-with-azure-running-cloud-connector-and-sap-private-link-side-by-side/)
+    - [SAP Private Link service is integrated to SAP BTP, Kyma runtime](https://community.sap.com/t5/technology-blogs-by-sap/sap-private-link-service-is-integrated-to-sap-btp-kyma-runtime/ba-p/13614067)
+      
+- Samples on Github:
+    - [Enhance core ERP business processes with resilient applications on SAP BTP](https://github.com/SAP-samples/btp-build-resilient-apps/blob/main/tutorials/05_setupconnectivity/privatelink.md)
+    - [SAP Private Link Service Use Cases for SAP Cloud Integration and SAP Build Work Zone, Standard Edition](https://github.com/SAP-samples/btp-private-link-approuter)
+      
+- Tutorials:
+    - [Connect SAP Private Link service to Microsoft Azure Private Link Service (CF)](https://developers.sap.com/mission.private-link-connect.html)
+    - [Connect SAP Private Link service to Microsoft Azure Private Link Service (Kyma)](https://developers.sap.com/tutorials/private-link-azure-kyma.html)
+    - [Connect SAP Private Link service to AWS Private Link Service (CF)](https://developers.sap.com/tutorials/private-link-aws.html)
+    - [Connect SAP Private Link service to AWS Private Link Service (Kyma)](https://developers.sap.com/tutorials/private-link-aws-kyma.html)
 
 <!-- dc-ref-arch-resources-end -->
 
